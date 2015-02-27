@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The David H. Koch Institute for Integrative Cancer Research At MIT</title>
+
+<!-- miscellaneous head tags -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type='text/javascript' src='//s7.addthis.com/js/250/addthis_widget.js#async=1'></script>
+<meta name="description" content="The David H. Koch Institute for Integrative Cancer Research at MIT is the epicenter of a highly collaborative effort to fight cancer in ways it has never been fought before. Science and engineering. The molecular and the technological. Working together to lengthen lives by controlling cancer." />
+<meta name="copyright" content="Copyright (C) 2011 Massachusetts Institute of Technology" />
+<link rel="canonical" href="http://ki.mit.edu/" />
+<meta name="revisit-after" content="3 days" />
+
+<!-- additional meta tags -->
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><!-- make IE8+ act like IE7 -->
+<link rel="shortcut icon" href="/sites/all/themes/ki/img/favicon.ico" type="image/x-icon" />
+<link rel="alternate" type="application/rss+xml" title="RSS News Feed for the Koch Institute" href="/news/rss" />
+
+<!-- css styles -->
+<link type="text/css" rel="stylesheet" media="all" href="/files/ki/css/css_7ec9b13b652f21a16d31bc0aa030b916.css" />
+<link type="text/css" rel="stylesheet" media="print" href="/files/ki/css/css_bd40669113784479fe033df035513878.css" />
+<!--[if IE]>
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/ki/styles/ki_ie.css?s" />
+<![endif]-->
+
+<!-- javascript -->
+<script type="text/javascript" src="/files/ki/js/js_45c2bb9a73646e0a145d57d8f231ce2d.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "addthis": { "config_default": { "services_toolbox": "", "services_compact": "favorites, facebook, mailto, twitter, print, more", "services_expanded": "", "ui_cobrand": "Koch Institute at MIT", "ui_header_color": "#666699", "ui_header_background": "#EFEFFF", "ui_click": 0, "ui_delay": "", "ui_use_addressbook": 0, "data_track_clickback": 0, "username": "", "data_ga_tracker": 0, "ui_use_css": true, "pubid": "xa-4e2cfd1147868c4e", "ui_language": "en", "data_use_cookies": false, "data_use_flash": false }, "share_default": { "templates": { "twitter": "" } } }, "themePath": "/sites/all/themes/ki/", "pagePath": "home" });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+addthis_config = Drupal.settings.addthis.config_default; addthis_share = Drupal.settings.addthis.share_default;
+//--><!]]>
+</script>
+<script type="text/javascript"> </script>
+<!-- typekit -->
+<script type="text/javascript" src="http://use.typekit.com/xxp6ipy.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+
+<body class="front not-logged-in page-node node-type-pagehome">
+
+<!-- dynamic pre-page content -->
+
+<!-- static pre-page items -->
+<div id="divprepage">
+
+  <!-- skip link -->
+  <div id="divskiplink"><a href="#divcontent"><img src="/sites/all/themes/ki/img/spacer.gif" width="1" height="1" border="0" alt="" title="" /></a></div>
+
+</div><!-- divprepage -->
+
+
+<!-- outer shell -->
+<div id="divoutershell">
+
+  <!-- container for page content -->
+  <div id="divpagearea" class="clearself">
+
+
+    <!-- static header with primary navigation -->
+    <div id="divheader" class="clearself">
+
+      <!-- site title and tagline -->
+      <p id="divsitetitle"><span class="screenonly"><a href="/" title="KI home">The David H. Koch Institute for Integrative Cancer Research at MIT</a></span><span class="printonly"><img src="/sites/all/themes/ki/img/sitetitle.gif" width="619" height="27" alt="" /></span></p>
+      <p id="divtagline"><a href="/" title="KI home">Science + Engineering... Conquering Cancer Together</a></p>
+
+      <!-- MIT link -->
+      <p id="divmit"><span class="screenonly"><a href="http://web.mit.edu/" title="MIT home">Massachusetts Institute of Technology</a></span><span class="printonly"><img src="/sites/all/themes/ki/img/mit.png" width="44" height="27" alt="" /></span></p>
+
+      <!-- NCI link -->
+      <p id="divnci"><span class="screenonly"><a href="/approach/partnerships/nci" title="A Cancer Center designated by the National Cancer Institute">National Cancer Institute Cancer Center</a></span><span class="printonly"><img src="/sites/all/themes/ki/img/nci.png" width="82" height="33" alt="" /></span></p>
+
+      <!-- dynamic header content -->
+              <div id="headerRegion">
+          <div id="divsearch" class="block">
+<form action="/"  accept-charset="UTF-8" method="post" id="search-block-form">
+<div><input type="hidden" name="form_build_id" id="form-VzG7Ec4kDdWlR3rKh4kS81Qk1rgsHhYvNq1LcHJFqfg" value="form-VzG7Ec4kDdWlR3rKh4kS81Qk1rgsHhYvNq1LcHJFqfg"  />
+<input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
+<table cellspacing="0">
+  <tr>
+    <td><input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" /></td>
+    <td><input type="image" src="/sites/all/themes/ki/img/magnifier.png" name="op" id="edit-submit-button" value="Search" title="Search" class="form-submit" /></td>
+  </tr>
+</table>
+
+</div></form>
+</div><!-- divsearch -->
+<div id="divaddthis" class="block">
+<a href="/" class="addthis_button"><img src="/sites/all/themes/ki/img/spacer.gif" width="58" height="22" alt="Add This" title="" /></a></div><!-- divaddthis -->
+        </div><!-- headerRegion -->
+      
+      <!-- dynamic navbar content -->
+              <div id="navbarRegion">
+          <div id="divprimarynav" class="block clearself">
+  <div class="menu-block-1 menu-name-menu-kimain parent-mlid-0 menu-level-1">
+  <ul><li class="first menu-mlid-941 level-2 page-people"><a href="/people" title="" class="level-2 page-people">People</a><ul><li class="first menu-mlid-952 has-children level-3 page-people-faculty"><a href="/people/faculty" title="" class="level-3 page-people-faculty">Intramural Faculty</a></li>
+<li class="menu-mlid-953 level-3 page-people-extramural"><a href="/people/extramural" title="" class="level-3 page-people-extramural">Extramural Faculty</a></li>
+<li class="menu-mlid-954 has-children level-3 page-people-cif"><a href="/people/cif" title="" class="level-3 page-people-cif">Clinical Investigators &amp; Fellows</a></li>
+<li class="menu-mlid-956 has-children level-3 page-people-leadership"><a href="/people/leadership" title="" class="level-3 page-people-leadership">Board of Advisors</a></li>
+<li class="menu-mlid-955 level-3 page-people-board"><a href="/people/board" title="" class="level-3 page-people-board">Scientific Advisory Board</a></li>
+<li class="last menu-mlid-957 has-children level-3 page-people-administration"><a href="/people/administration" title="" class="level-3 page-people-administration">Administration</a></li>
+</ul></li>
+<li class="menu-mlid-943 level-2 page-research"><a href="/research" title="" class="level-2 page-research">Research</a><ul><li class="first menu-mlid-958 level-3 page-research-nanotechnology"><a href="/research/nanotechnology" title="" class="level-3 page-research-nanotechnology">Nano-based Drugs</a></li>
+<li class="menu-mlid-959 level-3 page-research-detection"><a href="/research/detection" title="" class="level-3 page-research-detection">Detection &amp; Monitoring</a></li>
+<li class="menu-mlid-960 level-3 page-research-metastasis"><a href="/research/metastasis" title="" class="level-3 page-research-metastasis">Metastasis</a></li>
+<li class="menu-mlid-961 level-3 page-research-personalized"><a href="/research/personalized" title="" class="level-3 page-research-personalized">Personalized Medicine</a></li>
+<li class="last menu-mlid-962 level-3 page-research-immune"><a href="/research/immune" title="" class="level-3 page-research-immune">Cancer Immunology</a></li>
+</ul></li>
+<li class="menu-mlid-944 level-2 page-approach"><a href="/approach" title="" class="level-2 page-approach">Approach</a><ul><li class="first menu-mlid-1593 has-children level-3 page-approach-about"><a href="/approach/about" title="" class="level-3 page-approach-about">About Us</a></li>
+<li class="menu-mlid-1799 has-children level-3 page-approach-partnerships-nci"><a href="/approach/partnerships/nci" title="" class="level-3 page-approach-partnerships-nci">NCI Research Programs</a></li>
+<li class="menu-mlid-1792 level-3 page-approach-frontier"><a href="/approach/frontier" title="" class="level-3 page-approach-frontier">Frontier Research Program</a></li>
+<li class="menu-mlid-1794 has-children level-3 page-approach-bridge"><a href="/approach/bridge" title="" class="level-3 page-approach-bridge">Bridge Project</a></li>
+<li class="menu-mlid-1791 has-children level-3 page-approach-partnerships"><a href="/approach/partnerships" title="" class="level-3 page-approach-partnerships">Centers &amp; Partnerships</a></li>
+<li class="menu-mlid-8129 has-children level-3 page-approach-outreach"><a href="/approach/outreach" title="" class="level-3 page-approach-outreach">Outreach</a></li>
+<li class="menu-mlid-1788 has-children level-3 page-approach-training"><a href="/approach/training" title="" class="level-3 page-approach-training">Training &amp; Fellowships</a></li>
+<li class="last menu-mlid-2095 level-3 page-approach-imageawards"><a href="/approach/imageawards" title="" class="level-3 page-approach-imageawards">Image Awards</a></li>
+</ul></li>
+<li class="menu-mlid-945 level-2 page-news"><a href="/news" title="" class="level-2 page-news">News + Events</a><ul><li class="first menu-mlid-1676 has-children level-3 page-news-recent"><a href="/news/recent" title="" class="level-3 page-news-recent">In the News</a></li>
+<li class="menu-mlid-4504 has-children level-3 page-news-events-withinsight"><a href="/news/events/withinsight" title="" class="level-3 page-news-events-withinsight">with/in/sight Lecture Series</a></li>
+<li class="menu-mlid-1680 has-children level-3 page-news-newsletter"><a href="/news/newsletter" title="" class="level-3 page-news-newsletter">Cancer Solutions Newsletter</a></li>
+<li class="menu-mlid-7846 has-children level-3 page-news-sbcfocus"><a href="/news/sbcfocus" title="" class="level-3 page-news-sbcfocus">SBC Focus</a></li>
+<li class="menu-mlid-6983 has-children level-3 page-news-symposium"><a href="/news/symposium" title="" class="level-3 page-news-symposium">Summer Symposium</a></li>
+<li class="menu-mlid-6662 has-children level-3 page-news-pathways"><a href="/news/pathways" title="" class="level-3 page-news-pathways">Pathways Symposium</a></li>
+<li class="menu-mlid-8131 has-children level-3 page-news-bridge"><a href="/news/bridge" title="" class="level-3 page-news-bridge">Bridge Project Events</a></li>
+<li class="menu-mlid-10257 has-children level-3 page-news-events-public"><a href="/news/events/public" title="" class="level-3 page-news-events-public">Community Outreach Events</a></li>
+<li class="menu-mlid-1682 has-children level-3 page-news-events"><a href="/news/events" title="" class="level-3 page-news-events">Other KI Events</a></li>
+<li class="menu-mlid-1595 has-children level-3 page-news-presskit"><a href="/news/presskit" title="" class="level-3 page-news-presskit">Media Press Kit</a></li>
+<li class="menu-mlid-10573 level-3 page-news-lippard"><a href="/news/lippard" title="" class="level-3 page-news-lippard">Lippard Memorial Lectureship</a></li>
+<li class="last menu-mlid-10565 level-3 page-news-facultyopenings"><a href="/news/facultyopenings" title="" class="level-3 page-news-facultyopenings">Koch Institute Faculty Openings</a></li>
+</ul></li>
+<li class="menu-mlid-946 
