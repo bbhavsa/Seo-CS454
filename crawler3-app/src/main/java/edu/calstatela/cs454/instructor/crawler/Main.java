@@ -7,16 +7,14 @@ import java.io.IOException;
 public class Main {
 
 	public static void main(String[] args) throws Exception {
-		File f = new File("file1.json");
-        
-	       
-	       if(f.exists())
-	       {
-	    	   f.delete();
-	       }
-		String v = args[0];
-		//String d = args[1];
-	
+		/*File v = new File("hw.txt");
+    	if(v.exists())
+    	{
+    		v.delete();
+    	}*/
+		String v = "http://www.mit.edu/";
+		String d = "2";
+		new Crawl().getdepth(d);
 		new Crawl().crawl(v);
 		
 	
