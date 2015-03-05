@@ -3,21 +3,30 @@ package edu.calstatela.cs454.instructor.crawler;
 import java.io.File;
 import java.io.IOException;
 
+import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang.builder.ToStringStyle;
+
 
 public class Main {
 
 	public static void main(String[] args) throws Exception {
+		FileUtils.deleteDirectory(new File("E:/Storage/"));
 		File f = new File("file1.json");
-        
+		File file2 = new File("extraction.txt");
+		
 	       
 	       if(f.exists())
 	       {
 	    	   f.delete();
 	       }
+	       if(file2.exists())
+	       {
+	    	   file2.delete();
+	       }
 		String v = args[0];
-		//String d = args[1];
+	    String d = args[1];
 	
-		new Crawl().crawl(v);
+		new Crawl().crawl(v,d);
 		
 	
 }

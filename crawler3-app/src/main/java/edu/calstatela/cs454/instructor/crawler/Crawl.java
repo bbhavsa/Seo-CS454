@@ -27,6 +27,8 @@ import javax.net.ssl.X509TrustManager;
 import org.apache.commons.io.FileUtils;
 import org.apache.tika.metadata.HttpHeaders;
 import org.apache.tika.metadata.Metadata;
+import org.apache.tika.mime.MimeType;
+import org.apache.tika.mime.MimeTypes;
 import org.apache.tika.parser.AutoDetectParser;
 import org.apache.tika.parser.ParseContext;
 import org.apache.tika.parser.html.HtmlParser;
@@ -48,7 +50,7 @@ public class Crawl {
 	  int i = 1;
 	 
     @SuppressWarnings("unchecked")
-    public void crawl(String Url) throws Exception{
+    public void crawl(String Url,String depth)throws Exception{
     	TrustManager[] trustAllCerts = new TrustManager[]{
                 new X509TrustManager() {
 
@@ -80,11 +82,21 @@ public class Crawl {
 		catch(Exception e){
 			System.out.println(e);
 		}
-        ReadableByteChannel rbc = Channels.newChannel(url.openStream());
-        FileOutputStream fos = new FileOutputStream("E:/Storage/information"+i+".html");
-        fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
-        String path = "E:/Storage/information"+i+".html";
-        i++;
+        File theDir = new File("E:/Storage");
+        if (!theDir.exists()) {
+            
+            boolean result = false;
+
+            try{
+                theDir.mkdir();
+                result = true;
+             } catch(SecurityException se){
+                //handle it
+             }        
+             
+          }
+        
+       
         
         
         
@@ -96,54 +108,80 @@ public class Crawl {
         ParseContext parseContext = new ParseContext();
         AutoDetectParser parser = new AutoDetectParser();
         parser.parse(input, teeHandler, metadata, parseContext);
+        
+       
+       
+        //String x = hpCon.getContentType();
+         //if(x.contains("html"));
+        
+        
+        
+       
+        
         JSONObject obj = new JSONObject();
-        JSONObject obj2 = new JSONObject();
+        
         JSONArray  company = new JSONArray();
         
         List<Link> links = linkHandler.getLinks();
-       // ArrayList<String> linklist = new ArrayList<String>();
+        ArrayList<String> linklist = new ArrayList<String>();
+        ArrayList<String> linklist2 = new ArrayList<String>();
         Queue<String> myQueue = new LinkedList<String>();
         obj.put("Title", metadata.get("title"));
-       
-        obj.put("Content-Type",hpCon.getContentType());
         obj.put("URL", url);
+        obj.put("Content-Type",hpCon.getContentType());
         obj.put("Last pull date",new Date(hpCon.getLastModified()));
-        obj.put("Local storage", path);
+        String dir = "E:/Storage";
+        
+        	
+        
+        ReadableByteChannel rbc = Channels.newChannel(url.openStream());
+        FileOutputStream fos = new FileOutputStream("E:/Storage/information"+i+".html");
+        fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
+        String path = "E:/Storage/information"+i+".html";
+        i++;
+       //obj.put("Local storage", path);
         
      // System.out.println(links);
         for (Link link: links)
         {
+        	
+        	JSONObject obj2 = new JSONObject();
         	String anchor = link.getUri();
-        	/*if(anchor.endsWith(".jpg"))
+        	if(!anchor.startsWith("htt"))
         	{
-        		File destination = new File("f1.pdf");
-        		FileUtils.copyURLToFile(url, destination);
-        	}*/
+        		anchor = url+anchor;
+        	}
+       
         
         	
-        	
-        	if(h<2)
+        	int dep=Integer.parseInt(depth);
+        	if(h<dep)
         	{
         		if(!link.isImage())
         		{
+        			if(!myQueue.contains(anchor))
+        			{
               myQueue.add(anchor);
+        			}
         		}
         		}
         	
             String name = link.getText();
-        	company.add("text:" +name);
-        	company.add("Url:" +anchor);
         	
-        	obj2.put("Anchors", company);
-        	obj.put("Links", obj2);
+        	
+        	obj2.put("text", name);
+           
+        	obj2.put("URL", anchor);
+        	company.add(obj2);
         }
+        obj.put("Links", company);
         h++;
   
         for(String v: myQueue)
         {
         	if(!v.startsWith("#") && !v.startsWith("/")||v.startsWith("http")||v.startsWith("https"))
         		try{
-        	crawl(v);
+        	crawl(v,depth);
         	}
         	catch( MalformedURLException malformedException){
         		
@@ -154,8 +192,9 @@ public class Crawl {
         	catch(IOException ex){
         }
         }
+     
+    //   System.out.println(linklist);
       
-        
       File f = new File("file1.json");
       BufferedWriter file = new BufferedWriter(new FileWriter(f,true)); 
         try {
@@ -178,6 +217,5 @@ public class Crawl {
         }
         
   
-    }
-  
+}
 }

@@ -1,0 +1,254 @@
+package edu.calstatela.cs454.instructor.crawler;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.PrintWriter;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLConnection;
+import java.nio.channels.Channels;
+import java.nio.channels.ReadableByteChannel;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+
+import javax.net.ssl.HttpsURLConnection;
+import javax.net.ssl.SSLContext;
+import javax.net.ssl.TrustManager;
+import javax.net.ssl.X509TrustManager;
+
+import org.apache.commons.io.FileUtils;
+import org.apache.tika.metadata.HttpHeaders;
+import org.apache.tika.metadata.Metadata;
+import org.apache.tika.parser.AutoDetectParser;
+import org.apache.tika.parser.ParseContext;
+import org.apache.tika.parser.html.HtmlParser;
+import org.apache.tika.sax.BodyContentHandler;
+import org.apache.tika.sax.Link;
+import org.apache.tika.sax.LinkContentHandler;
+import org.apache.tika.sax.TeeContentHandler;
+import org.apache.tika.sax.ToHTMLContentHandler;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
+import org.xml.sax.ContentHandler;
+
+public class Crawl {
+	
+	  int h = 1;
+	  int i = 1;
+	 
+    @SuppressWarnings({ "unchecked", "static-access" })
+    public void crawl(String Url,String depth)throws Exception{
+    	TrustManager[] trustAllCerts = new TrustManager[]{
+                new X509TrustManager() {
+
+                    public java.security.cert.X509Certificate[] getAcceptedIssuers()
+                    {
+                        return null;
+                    }
+                    public void checkClientTrusted(java.security.cert.X509Certificate[] certs, String authType)
+                    {
+                        //No need to implement.
+                    }
+                    public void checkServerTrusted(java.security.cert.X509Certificate[] certs, String authType)
+                    {
+                        //No need to implement.
+                    }
+                }
+        };
+        URL url = new URL(Url);
+        
+       
+        URLConnection hpCon = url.openConnection();
+        
+        InputStream input = url.openStream();
+        try{
+			SSLContext sc = SSLContext.getInstance("SSL");
+            sc.init(null, trustAllCerts, new java.security.SecureRandom());
+            HttpsURLConnection.setDefaultSSLSocketFactory(sc.getSocketFactory());
+		}
+		catch(Exception e){
+			System.out.println(e);
+		}
+        File theDir = new File("E:/Storage");
+        if (!theDir.exists()) {
+            
+            boolean result = false;
+
+            try{
+                theDir.mkdir();
+                result = true;
+             } catch(SecurityException se){
+                //handle it
+             }        
+             
+          }
+        
+        Document doc = Jsoup.connect(Url).timeout(50000000).get();
+        Elements anchors = doc.select("a");
+        LinkContentHandler linkHandler = new LinkContentHandler();
+        ContentHandler textHandler = new BodyContentHandler();
+        ToHTMLContentHandler toHTMLHandler = new ToHTMLContentHandler();
+        TeeContentHandler teeHandler = new TeeContentHandler(linkHandler, textHandler, toHTMLHandler);
+        Metadata metadata = new Metadata();
+        ParseContext parseContext = new ParseContext();
+        AutoDetectParser parser = new AutoDetectParser();
+        parser.parse(input, teeHandler, metadata, parseContext);
+        JSONObject obj = new JSONObject();
+        
+        JSONArray  company = new JSONArray();
+        
+       // List<Link> links = linkHandler.getLinks();
+        ArrayList<String> linklist = new ArrayList<String>();
+        ArrayList<String> linklist2 = new ArrayList<String>();
+        Queue<String> myQueue = new LinkedList<String>();
+       
+        for(Element anchor : anchors)
+		{
+			 String result = anchor.attr("abs:href").trim();
+			String text = anchor.ownText();
+			 
+      
+          
+        	  if(!linklist.contains(result))
+				{
+					linklist.add(result);
+					
+				}
+        	  JSONObject obj2 = new JSONObject();
+          
+          //	String name = link.getText();
+              obj2.put("Text", text);
+              obj2.put("URL", result);
+          	company.add(obj2);
+          	
+          	
+          /*	if(!anchor.startsWith("h"))
+          	{
+          		anchor = url+anchor;
+          	}*/
+         
+          
+          	
+          	int dep=Integer.parseInt(depth);
+          	if(h<dep)
+          	{
+          		//if(!link.isImage())
+          	//	{
+          			if(!myQueue.contains(result))
+          			{
+                myQueue.add(result);
+          			}
+          		}
+          		}
+          	
+              
+         
+		}
+        ReadableByteChannel rbc = Channels.newChannel(url.openStream());
+        String z = hpCon.getContentType();
+        
+        FileOutputStream fos = new FileOutputStream("E:/Storage/"+metadata.get("title")+".html");
+        fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
+        String path = "E:/Storage/"+metadata.get("title")+".html";
+        i++;
+        
+        
+        obj.put("Title", metadata.get("title"));
+       
+        obj.put("Content-Type",hpCon.getContentType());
+        obj.put("URL", url);
+        obj.put("Last pull date",new Date(hpCon.getLastModified()));
+        obj.put("Local storage", path);
+        
+     // System.out.println(links);
+        for (String link: linklist)
+        {
+        	JSONObject obj2 = new JSONObject();
+        	String anchor = 
+        	String name = link.getText();
+            obj2.put("Text", name);
+            obj2.put("URL", anchor);
+        	company.add(obj2);
+        	
+        	
+        	if(!anchor.startsWith("h"))
+        	{
+        		anchor = url+anchor;
+        	}
+       
+        
+        	
+        	int dep=Integer.parseInt(depth);
+        	if(h<dep)
+        	{
+        		if(!link.isImage())
+        		{
+        			if(!myQueue.contains(anchor))
+        			{
+              myQueue.add(anchor);
+        			}
+        		}
+        		}
+        	
+            
+        	
+        	
+        	
+        	
+        }
+        obj.put("Links", company);
+        h++;
+  
+        for(String v: myQueue)
+        {
+        	if(!v.startsWith("#") && !v.startsWith("/")||v.startsWith("http")||v.startsWith("https"))
+        		try{
+        	crawl(v,depth);
+        	}
+        	catch( MalformedURLException malformedException){
+        		
+        	}
+        	catch (FileNotFoundException e){
+        	    
+        	   }
+        	catch(IOException ex){
+        }
+        }
+     
+   
+              File f = new File("file1.json");
+      BufferedWriter file = new BufferedWriter(new FileWriter(f,true)); 
+        try {
+            file.write(obj.toJSONString());
+            file.newLine();
+            file.newLine();
+            file.newLine();
+            file.newLine();
+           // System.out.println("Successfully Copied JSON Object to File...");
+            System.out.println("\nJSON Object: \n "  + obj );
+            String newLine = System.getProperty("line.separator");
+            System.out.println(newLine);
+ 
+        } catch (IOException e) {
+            e.printStackTrace();
+ 
+        } finally {
+            file.flush();
+            file.close();
+        }
+       
+  
+}
+}
