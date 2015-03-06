@@ -3,6 +3,8 @@ package edu.calstatela.cs454.instructor.crawler;
 import java.io.File;
 import java.io.IOException;
 
+import netscape.ldap.util.GetOpt;
+
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang.builder.ToStringStyle;
 
@@ -12,21 +14,23 @@ public class Main {
 	public static void main(String[] args) throws Exception {
 		FileUtils.deleteDirectory(new File("E:/Storage/"));
 		File f = new File("file1.json");
-		File file2 = new File("extraction.txt");
+		
 		
 	       
 	       if(f.exists())
 	       {
 	    	   f.delete();
 	       }
-	       if(file2.exists())
-	       {
-	    	   file2.delete();
-	       }
-		String v = args[0];
-	    String d = args[1];
+	       
+	//	String v = args[0];
+	  //  String d = args[1];
+	       GetOpt options = new GetOpt( "h:D:H", args );
+	       //Get the arguments specified for each option.
+	       String hostname = options.getOptionParam( 'h' );
+	      
+	       String dep = options.getOptionParam( 'D' );
 	
-		new Crawl().crawl(v,d);
+		new Crawl().crawl(hostname,dep);
 		
 	
 }

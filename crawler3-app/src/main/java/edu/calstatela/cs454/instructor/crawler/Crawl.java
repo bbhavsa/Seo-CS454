@@ -1,5 +1,6 @@
 package edu.calstatela.cs454.instructor.crawler;
 
+import java.awt.Image;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -7,6 +8,7 @@ import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -19,6 +21,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
+import javax.imageio.ImageIO;
 import javax.net.ssl.HttpsURLConnection;
 import javax.net.ssl.SSLContext;
 import javax.net.ssl.TrustManager;
@@ -40,6 +43,8 @@ import org.apache.tika.sax.ToHTMLContentHandler;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.xml.sax.ContentHandler;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class Crawl {
 	/*public void start() throws Exception{
@@ -92,7 +97,7 @@ public class Crawl {
                 result = true;
              } catch(SecurityException se){
                 //handle it
-             }        
+             }
              
           }
         
@@ -121,6 +126,8 @@ public class Crawl {
         JSONObject obj = new JSONObject();
         
         JSONArray  company = new JSONArray();
+        JSONArray  company2 = new JSONArray();
+        
         
         List<Link> links = linkHandler.getLinks();
         ArrayList<String> linklist = new ArrayList<String>();
@@ -131,16 +138,94 @@ public class Crawl {
         obj.put("Content-Type",hpCon.getContentType());
         obj.put("Last pull date",new Date(hpCon.getLastModified()));
         String dir = "E:/Storage";
-        
+        try{
+        String w = hpCon.getContentType();
         	
-        
+        if(w.contains("html"))
+        {
         ReadableByteChannel rbc = Channels.newChannel(url.openStream());
         FileOutputStream fos = new FileOutputStream("E:/Storage/information"+i+".html");
         fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
         String path = "E:/Storage/information"+i+".html";
+        linklist2.add(path);
         i++;
-       //obj.put("Local storage", path);
+        obj.put("Local storage", path);
+        }
+        else if(w.contains("png"))
+        {
+        	ReadableByteChannel rbc = Channels.newChannel(url.openStream());
+            FileOutputStream fos = new FileOutputStream("E:/Storage/information"+i+".png");
+            fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
+            String path = "E:/Storage/information"+i+".png";
+            linklist2.add(path);
+            i++;
+            obj.put("Local storage", path);
+        }
+        else if(w.contains("gif"))
+        {
+        	ReadableByteChannel rbc = Channels.newChannel(url.openStream());
+            FileOutputStream fos = new FileOutputStream("E:/Storage/information"+i+".gif");
+            fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
+            String path = "E:/Storage/information"+i+".gif";
+            linklist2.add(path);
+            i++;
+            obj.put("Local storage", path);
+        }
+        else if(w.contains("jpg"))
+        {
+        	ReadableByteChannel rbc = Channels.newChannel(url.openStream());
+            FileOutputStream fos = new FileOutputStream("E:/Storage/information"+i+".jpg");
+            fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
+            String path = "E:/Storage/information"+i+".jpg";
+            linklist2.add(path);
+            i++;
+            obj.put("Local storage", path);
+        }
+        else if(w.contains("pdf"))
+        {
+        	ReadableByteChannel rbc = Channels.newChannel(url.openStream());
+            FileOutputStream fos = new FileOutputStream("E:/Storage/information"+i+".pdf");
+            fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
+            String path = "E:/Storage/information"+i+".pdf";
+            linklist2.add(path);
+            i++;
+            obj.put("Local storage", path);
+        }
+        else if(w.contains("doc"))
+        {
+        	ReadableByteChannel rbc = Channels.newChannel(url.openStream());
+            FileOutputStream fos = new FileOutputStream("E:/Storage/information"+i+".doc");
+            fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
+            String path = "E:/Storage/information"+i+".doc";
+            linklist2.add(path);
+            i++;
+            obj.put("Local storage", path);
+        }
+        else if(w.contains("audio"))
+        {
+        	//URLConnection conn = new URL("http://online1.tingclass.com/lesson/shi0529/43/32.mp3").openConnection();
+            InputStream is = hpCon.getInputStream();
+
+            OutputStream outstream = new FileOutputStream(new File("E:/Storage/information"+i+".mp3"));
+            byte[] buffer = new byte[4096];
+            int len;
+            while ((len = is.read(buffer)) > 0) {
+                outstream.write(buffer, 0, len);
+            }
+            outstream.close();
+            String path = "E:/Storage/information"+i+".mp3";
+            linklist2.add(path);
+            i++;
+            obj.put("Local storage", path);
+        }
         
+       
+       
+        }
+        catch(NullPointerException e)
+        {
+        	
+        }
      // System.out.println(links);
         for (Link link: links)
         {
@@ -157,13 +242,13 @@ public class Crawl {
         	int dep=Integer.parseInt(depth);
         	if(h<dep)
         	{
-        		if(!link.isImage())
-        		{
+        	
+        		
         			if(!myQueue.contains(anchor))
         			{
               myQueue.add(anchor);
         			}
-        		}
+        		
         		}
         	
             String name = link.getText();
@@ -175,6 +260,7 @@ public class Crawl {
         	company.add(obj2);
         }
         obj.put("Links", company);
+       // company2.
         h++;
   
         for(String v: myQueue)
@@ -196,17 +282,23 @@ public class Crawl {
     //   System.out.println(linklist);
       
       File f = new File("file1.json");
+      
       BufferedWriter file = new BufferedWriter(new FileWriter(f,true)); 
         try {
-            file.write(obj.toJSONString());
+        	ObjectMapper mapper = new ObjectMapper();
+           file.write(mapper.writerWithDefaultPrettyPrinter().writeValueAsString(obj));
+           System.out.println(mapper.writerWithDefaultPrettyPrinter().writeValueAsString(obj));
+        //	file.write(obj.toJSONString());
             file.newLine();
             file.newLine();
             file.newLine();
             file.newLine();
            // System.out.println("Successfully Copied JSON Object to File...");
-            System.out.println("\nJSON Object: \n "  + obj );
-            String newLine = System.getProperty("line.separator");
-            System.out.println(newLine);
+            
+       //     System.out.println(mapper.writerWithDefaultPrettyPrinter().writeValueAsString(obj));
+        //    System.out.println("\nJSON Object: \n "  + obj );
+          //  String newLine = System.getProperty("line.separator");
+           // System.out.println(newLine);
  
         } catch (IOException e) {
             e.printStackTrace();
@@ -215,6 +307,7 @@ public class Crawl {
             file.flush();
             file.close();
         }
+        
         
   
 }
