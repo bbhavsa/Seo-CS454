@@ -32,7 +32,7 @@ public class Extraction {
 	 public void extract() throws IOException {
 		 
 		 
-		 File f = new File("E:/Storage"); // current directory
+		 File f = new File("D:/Storage"); // current directory
 
 		    File[] files = f.listFiles();
 		    for (File file : files) {
