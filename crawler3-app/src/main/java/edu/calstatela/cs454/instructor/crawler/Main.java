@@ -12,7 +12,7 @@ import org.apache.commons.lang.builder.ToStringStyle;
 public class Main {
 
 	public static void main(String[] args) throws Exception {
-		FileUtils.deleteDirectory(new File("D:/Storage/"));
+		FileUtils.deleteDirectory(new File("E:/Storage/"));
 		File f = new File("file1.json");
 		
 		
@@ -24,11 +24,11 @@ public class Main {
 	       
 	//	String v = args[0];
 	  //  String d = args[1];
-	       GetOpt options = new GetOpt( "u:d:H", args );
+	       GetOpt options = new GetOpt( "h:D:H", args );
 	       //Get the arguments specified for each option.
-	       String hostname = options.getOptionParam( 'u' );
+	       String hostname = options.getOptionParam( 'h' );
 	      
-	       String dep = options.getOptionParam( 'd' );
+	       String dep = options.getOptionParam( 'D' );
 	
 		new Crawl().crawl(hostname,dep);
 		

@@ -87,7 +87,7 @@ public class Crawl {
 		catch(Exception e){
 			System.out.println(e);
 		}
-        File theDir = new File("D:/Storage");
+        File theDir = new File("E:/Storage");
         if (!theDir.exists()) {
             
             boolean result = false;
@@ -137,86 +137,86 @@ public class Crawl {
         obj.put("URL", url);
         obj.put("Content-Type",hpCon.getContentType());
         obj.put("Last pull date",new Date(hpCon.getLastModified()));
-        String dir = "D:/Storage";
+        String dir = "E:/Storage";
         try{
         String w = hpCon.getContentType();
         	
         if(w.contains("html"))
         {
         ReadableByteChannel rbc = Channels.newChannel(url.openStream());
-        FileOutputStream fos = new FileOutputStream("D:/Storage/information"+i+".html");
+        FileOutputStream fos = new FileOutputStream("E:/Storage/information"+i+".html");
         fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
-        String path = "D:/Storage/information"+i+".html";
+        String path = "E:/Storage/information"+i+".html";
         linklist2.add(path);
         i++;
-        obj.put("storage", path);
+        obj.put("Local storage", path);
         }
         else if(w.contains("png"))
         {
         	ReadableByteChannel rbc = Channels.newChannel(url.openStream());
-            FileOutputStream fos = new FileOutputStream("D:/Storage/information"+i+".png");
+            FileOutputStream fos = new FileOutputStream("E:/Storage/information"+i+".png");
             fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
-            String path = "D:/Storage/information"+i+".png";
+            String path = "E:/Storage/information"+i+".png";
             linklist2.add(path);
             i++;
-            obj.put("storage", path);
+            obj.put("Local storage", path);
         }
         else if(w.contains("gif"))
         {
         	ReadableByteChannel rbc = Channels.newChannel(url.openStream());
-            FileOutputStream fos = new FileOutputStream("D:/Storage/information"+i+".gif");
+            FileOutputStream fos = new FileOutputStream("E:/Storage/information"+i+".gif");
             fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
-            String path = "D:/Storage/information"+i+".gif";
+            String path = "E:/Storage/information"+i+".gif";
             linklist2.add(path);
             i++;
-            obj.put("storage", path);
+            obj.put("Local storage", path);
         }
-        else if(w.contains("jpeg"))
+        else if(w.contains("jpg"))
         {
         	ReadableByteChannel rbc = Channels.newChannel(url.openStream());
-            FileOutputStream fos = new FileOutputStream("D:/Storage/information"+i+".jpg");
+            FileOutputStream fos = new FileOutputStream("E:/Storage/information"+i+".jpg");
             fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
-            String path = "D:/Storage/information"+i+".jpg";
+            String path = "E:/Storage/information"+i+".jpg";
             linklist2.add(path);
             i++;
-            obj.put("storage", path);
+            obj.put("Local storage", path);
         }
         else if(w.contains("pdf"))
         {
         	ReadableByteChannel rbc = Channels.newChannel(url.openStream());
-            FileOutputStream fos = new FileOutputStream("D:/Storage/information"+i+".pdf");
+            FileOutputStream fos = new FileOutputStream("E:/Storage/information"+i+".pdf");
             fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
-            String path = "D:/Storage/information"+i+".pdf";
+            String path = "E:/Storage/information"+i+".pdf";
             linklist2.add(path);
             i++;
-            obj.put("storage", path);
+            obj.put("Local storage", path);
         }
         else if(w.contains("doc"))
         {
         	ReadableByteChannel rbc = Channels.newChannel(url.openStream());
-            FileOutputStream fos = new FileOutputStream("D:/Storage/information"+i+".doc");
+            FileOutputStream fos = new FileOutputStream("E:/Storage/information"+i+".doc");
             fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
-            String path = "D:/Storage/information"+i+".doc";
+            String path = "E:/Storage/information"+i+".doc";
             linklist2.add(path);
             i++;
-            obj.put("storage", path);
+            obj.put("Local storage", path);
         }
         else if(w.contains("audio"))
         {
         	//URLConnection conn = new URL("http://online1.tingclass.com/lesson/shi0529/43/32.mp3").openConnection();
             InputStream is = hpCon.getInputStream();
 
-            OutputStream outstream = new FileOutputStream(new File("D:/Storage/information"+i+".mp3"));
+            OutputStream outstream = new FileOutputStream(new File("E:/Storage/information"+i+".mp3"));
             byte[] buffer = new byte[4096];
             int len;
             while ((len = is.read(buffer)) > 0) {
                 outstream.write(buffer, 0, len);
             }
             outstream.close();
-            String path = "D:/Storage/information"+i+".mp3";
+            String path = "E:/Storage/information"+i+".mp3";
             linklist2.add(path);
             i++;
-            obj.put("storage", path);
+            obj.put("Local storage", path);
         }
         
        
