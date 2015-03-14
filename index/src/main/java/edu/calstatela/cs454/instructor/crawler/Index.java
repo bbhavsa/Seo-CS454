@@ -29,7 +29,7 @@ import org.codehaus.jackson.map.ObjectMapper;
 
 public class Index {
 	@SuppressWarnings("unchecked")
-	public void index(String c, String stw, String index) throws IOException{
+	public void index(String c, String stw, String index, String rank) throws IOException{
 		
 
 	/* File f = new File("D:/Storage"); // current directory
@@ -134,6 +134,7 @@ public class Index {
 	    }
 		}
 		finally {
+			new Rank().rank("Apple", rank);
 			in.close();
 		}
 }
