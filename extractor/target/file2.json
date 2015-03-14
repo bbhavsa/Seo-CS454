@@ -1,1039 +1,711 @@
 {
-  "Description" : null,
+  "analytics-s-bucket-1" : "apple{COUNTRY_CODE}global,apple{COUNTRY_CODE}home",
+  "analytics-s-bucket-0" : "appleglobal,applehome",
+  "og:image" : "http://images.apple.com/home/images/og.jpg?201503110857",
+  "X-Parsed-By" : "org.apache.tika.parser.DefaultParser",
+  "og:type" : "website",
+  "Description" : "Apple designs and creates the iPhone, iPad, Mac notebooks and desktop computers, iOS 8, OS X, iPod and iTunes, and the new Apple Watch.",
+  "og:site_name" : "Apple",
   "keywords" : null,
-  "Title" : "California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/",
-  "Content-Type" : "text/html; charset=UTF-8"
+  "title" : "Apple",
+  "analytics-s-channel" : "homepage",
+  "path" : "/Users/rohanpatel/Documents/workspace1/crawler3-app/target/Storage/9f007bce-1f7b-4445-9525-08331ebf10c6.html",
+  "X-UA-Compatible" : "IE=EmulateIE7, IE=9",
+  "viewport" : "width=device-width, initial-scale=1",
+  "dc:title" : "Apple",
+  "Content-Encoding" : "UTF-8",
+  "Author" : "Apple Inc.",
+  "og:url" : "http://www.apple.com/",
+  "Content-Type" : "application/xhtml+xml",
+  "analytics-track" : "Apple - Index/Tab",
+  "analytics-s-bucket-2" : "apple{COUNTRY_CODE}global"
 }
 
 
 
 {
-  "Description" : null,
+  "X-Parsed-By" : "org.apache.tika.parser.DefaultParser",
   "keywords" : null,
-  "Title" : null,
-  "url" : null,
-  "Content-Type" : "image/png"
+  "description" : "Pick your favorite models before pre-order. Theyâ€™ll be saved in your account so you can compare them and be ready for pre-order.",
+  "title" : "Official Apple Store - Apple Watch is Coming - Pre-order April 10.",
+  "path" : "/Users/rohanpatel/Documents/workspace1/crawler3-app/target/Storage/be063479-3368-48c5-bd9b-33f11b2d99c8.html",
+  "X-UA-Compatible" : "IE=edge,chrome=1",
+  "viewport" : "width=1024",
+  "dc:title" : "Official Apple Store - Apple Watch is Coming - Pre-order April 10.",
+  "Content-Encoding" : "UTF-8",
+  "Set-Cookie" : "sfa=us; path=/; expires=2025-03-14 05:42:30 GMT",
+  "robots" : "NOODP, NOYDIR",
+  "Content-Type" : "text/html; charset=UTF-8",
+  "format-detection" : "telephone=no"
 }
 
 
 
 {
-  "Description" : "Cal State L.A. anthropology major Jocelyn Acosta has been named by Hispanas Organized for Political Equality (HOPE) as one of five 2015 Future History Makers. The award is presented to high-achieving Latina students who are involved in activities and projects that benefit the community, or who are advancing in an academic field, or working on groundbreaking research or inventions.",
+  "analytics-s-bucket-1" : "apple{COUNTRY_CODE}global,apple{COUNTRY_CODE}mac",
+  "analytics-s-bucket-0" : "appleglobal,appleusmac",
+  "og:image" : "http://images.apple.com/mac/home/images/macbook_mac_og.jpg?201503091741",
+  "X-Parsed-By" : "org.apache.tika.parser.DefaultParser",
+  "og:type" : "website",
+  "Description" : "Explore the world of Mac. Check out the new MacBook, iMac, Mac Pro, and more. And discover powerful apps to help you get the most out of your Mac.",
+  "og:site_name" : "Apple",
   "keywords" : null,
-  "Title" : "Cal State L.A. student honored with Future History Maker award  | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/univ/ppa/publicat/cal-state-la-student-honored-future-history-maker-award",
-  "Content-Type" : "text/html; charset=UTF-8"
+  "title" : "Apple - Mac",
+  "analytics-s-channel" : "mac.tab+other",
+  "path" : "/Users/rohanpatel/Documents/workspace1/crawler3-app/target/Storage/f53042a4-d70f-48e4-8f28-13933664044b.html",
+  "X-UA-Compatible" : "IE=EmulateIE7, IE=9",
+  "viewport" : "width=device-width, initial-scale=1",
+  "dc:title" : "Apple - Mac",
+  "Content-Encoding" : "UTF-8",
+  "Author" : "Apple Inc.",
+  "og:url" : "http://www.apple.com/mac/",
+  "Content-Type" : "application/xhtml+xml",
+  "analytics-track" : "Mac - Index/Tab",
+  "analytics-s-bucket-2" : "apple{COUNTRY_CODE}global"
 }
 
 
 
 {
-  "Description" : null,
+  "analytics-s-bucket-1" : "apple{COUNTRY_CODE}global,apple{COUNTRY_CODE}iphonetab",
+  "analytics-s-bucket-0" : "appleglobal,apple{COUNTRY_CODE}iphonetab",
+  "og:image" : "/home/images/og.jpg?201503010926",
+  "X-Parsed-By" : "org.apache.tika.parser.DefaultParser",
+  "og:type" : "website",
+  "Description" : "Discover everything iPhone, including the most advanced mobile OS in its most advanced form and great apps that let you be creative and productive.",
+  "og:site_name" : "Apple",
   "keywords" : null,
-  "Title" : null,
-  "url" : null,
-  "Content-Type" : "image/jpeg"
+  "title" : "Apple - iPhone",
+  "analytics-s-channel" : "iphone.tab+other",
+  "path" : "/Users/rohanpatel/Documents/workspace1/crawler3-app/target/Storage/ce8fb88a-18a7-49b8-9ae0-78bd9bdf0466.html",
+  "X-UA-Compatible" : "IE=EmulateIE7, IE=9",
+  "viewport" : "width=device-width, initial-scale=1",
+  "dc:title" : "Apple - iPhone",
+  "Content-Encoding" : "UTF-8",
+  "Author" : "Apple Inc.",
+  "og:url" : "http://www.apple.com/iphone/",
+  "Content-Type" : "application/xhtml+xml",
+  "analytics-track" : "iPhone - Index/Tab",
+  "analytics-s-bucket-2" : "apple{COUNTRY_CODE}global"
 }
 
 
 
 {
-  "Description" : null,
+  "analytics-s-bucket-1" : "apple{COUNTRY_CODE}global,apple{COUNTRY_CODE}applewatch",
+  "analytics-s-bucket-0" : "appleglobal,apple{COUNTRY_CODE}applewatch",
+  "og:image" : "http://images.apple.com/v/watch/d/images/og_tab.jpg?201503081048",
+  "X-Parsed-By" : "org.apache.tika.parser.DefaultParser",
+  "og:type" : "website",
+  "Description" : "Apple Watch is the most personal product weâ€™ve ever made, because itâ€™s the first one designed to be worn.",
+  "og:site_name" : "Apple",
   "keywords" : null,
-  "Title" : null,
-  "url" : null,
-  "Content-Type" : "image/png"
+  "title" : "Apple - Apple Watch",
+  "analytics-s-channel" : "applewatch",
+  "path" : "/Users/rohanpatel/Documents/workspace1/crawler3-app/target/Storage/7aa7d7ab-59fc-4a96-9a80-5aafe5e301c7.html",
+  "X-UA-Compatible" : "IE=EmulateIE7, IE=9",
+  "viewport" : "width=device-width, initial-scale=1",
+  "dc:title" : "Apple - Apple Watch",
+  "Content-Encoding" : "UTF-8",
+  "Author" : "Apple Inc.",
+  "og:url" : "http://www.apple.com/watch/",
+  "Content-Type" : "application/xhtml+xml",
+  "analytics-track" : "Apple Watch - Index/Tab",
+  "analytics-s-bucket-2" : "apple{COUNTRY_CODE}global"
 }
 
 
 
 {
-  "Description" : " ",
+  "analytics-s-bucket-1" : "apple{COUNTRY_CODE}global,apple{COUNTRY_CODE}ipadtab",
+  "analytics-s-bucket-0" : "appleglobal,apple{COUNTRY_CODE}ipadtab",
+  "X-Parsed-By" : "org.apache.tika.parser.DefaultParser",
+  "og:type" : "website",
+  "Description" : "Discover the world of iPad. Introducing iPadÂ AirÂ 2 and the iPadÂ miniÂ 3. Compare iPad models and find accessories.",
+  "og:site_name" : "Apple",
   "keywords" : null,
-  "Title" : "Mind Matters | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/studenthealthcenter/mind-matters",
-  "Content-Type" : "text/html; charset=UTF-8"
+  "title" : "Apple - iPad",
+  "analytics-s-channel" : "ipad.tab+other",
+  "path" : "/Users/rohanpatel/Documents/workspace1/crawler3-app/target/Storage/21018cda-1389-40cd-a535-be283fac6973.html",
+  "X-UA-Compatible" : "IE=EmulateIE7, IE=9",
+  "viewport" : "width=device-width, initial-scale=1",
+  "dc:title" : "Apple - iPad",
+  "Content-Encoding" : "UTF-8",
+  "Author" : "Apple Inc.",
+  "og:url" : "http://www.apple.com/ipad/",
+  "Content-Type" : "application/xhtml+xml",
+  "analytics-track" : "iPad - Index/Tab",
+  "analytics-s-bucket-2" : "apple{COUNTRY_CODE}global"
 }
 
 
 
 {
-  "Description" : "If you are having trouble viewing files on the Cal State L.A. website, it may be because your computer does not have the necessary application to open and view the file type you are attempting to access. Download and install the needed plugin to add additional functionality to your web browser so you may open the file type you wish to view. If you are not sure which specific plugin you need, take a look at the file extension of the file you're attempting to access and compare it with the extensions listed below.",
+  "omni_page" : "iPod - Index/Tab",
+  "og:image" : "/home/images/og.jpg?201410151148",
+  "X-Parsed-By" : "org.apache.tika.parser.DefaultParser",
+  "og:type" : "website",
+  "Description" : "Learn about iPod, Apple TV, and more. Download iTunes for free and purchase iTunes Gift Cards. Check out the most popular TV shows, movies, and music.",
+  "og:site_name" : "Apple",
   "keywords" : null,
-  "Title" : "File Viewers and Plugins | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/plugins",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : null,
-  "keywords" : null,
-  "Title" : "California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "Welcome Welcome to the Student home page. Here you will find links to various online sources most helpful to the student community. Future students click here.",
-  "keywords" : null,
-  "Title" : "Students | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/student",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "                                 ",
-  "keywords" : null,
-  "Title" : "Future Students | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/student/future-students",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "The faculty and staff of California State University, Los Angeles are crucial in providing the educational foundation, support services and academic advisement to help students achieve their college degrees and move onto becoming contributing citizens. The university employs more than 2,100 faculty and staff members. Here are resources to help you navigate life as a member of the Cal State L.A. family.",
-  "keywords" : null,
-  "Title" : "Faculty & Staff | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/faculty-staff",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "Alumni Association Charitable Gifts Volunteer Opportunities Fundraising & Development Give to CSULA",
-  "keywords" : null,
-  "Title" : "Alumni & Giving Overview | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/alumni-giving-overview",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "Academy of Business Leadership EPIC LACHSA Pasadena Bioscience Collaborative Pat Brown Institute Service Learning Stern MASS The School of Arts and Enterprise          ",
-  "keywords" : null,
-  "Title" : "Community Partners | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/community-partners",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "California State University, Los Angeles  is at the heart of Los Angeles, just five miles from the city’s civic and cultural center. Home to more than 20,000 students and 230,000 alumni with a wide variety of interests, ages and backgrounds, the University reflects the city’s dynamic mix of populations.",
-  "keywords" : null,
-  "Title" : "Academics | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/academics",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "Auxillary Campus Tours Career Centers Children's Center Food and Dining Health Center Health Services Luckman Fine Arts Complex Public Safety and Parking Tutorial Center",
-  "keywords" : null,
-  "Title" : "Campus & Resources | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/campus-resources",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "Purpose This web page is intended to provide information to faculty and staff seeking to advise AB 540 Students and for undocumented nonresident high school and college students seeking information about their eligibility for AB 540 and resources.",
-  "keywords" : null,
-  "Title" : "Undocumented Students | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/ab540",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : null,
-  "keywords" : null,
-  "Title" : "California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : null,
-  "keywords" : null,
-  "Title" : "Golden Eagle Territory",
-  "url" : null,
-  "Content-Type" : "text/html; charset=iso-8859-1"
-}
-
-
-
-{
-  "Description" : "The University-Student Union inc.(U-SU) at California State University, Los Angeles was established in 1975 and provides a unique setting for the encouragement of broad social, cultural, recreational, and informal educational programming for the university and its surroundings. .",
-  "keywords" : "The University Student Union, California State University Los Angeles, Student Union, CSULA, Cal State L.A., U-SU, USU, student, organizations, MORE, Cross Cultural Centers, Center For Student Involvement, Fitness Center, The Pit, The Gameroom, Student orgnizations, Calendar, Events, Gender and sexuality resource center, Pan African resource center, Asian Pacific islander, Chicana Latina, Information and Event Services, Distinguished Women, awards, Cultural Graduate Celebrations, LOUDmouth Zine, S.T.A.R.S. Program, Employment Opportunities, Board of Directors, Jobs, ",
-  "Title" : "University-Student Union",
-  "url" : null,
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : null,
-  "keywords" : null,
-  "Title" : "OSD Welcome Page",
-  "url" : null,
-  "Content-Type" : "text/html; charset=iso-8859-1"
-}
-
-
-
-{
-  "Description" : null,
-  "keywords" : null,
-  "Title" : "Upcoming Events | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/univ/calendar/index.htm",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "The University-Student Union inc.(U-SU) at California State University, Los Angeles was established in 1975 and provides a unique setting for the encouragement of broad social, cultural, recreational, and informal educational programming for the university and its surroundings. .",
-  "keywords" : "The University Student Union, California State University Los Angeles, Student Union, CSULA, Cal State L.A., U-SU, USU, student, organizations, MORE, Cross Cultural Centers, Center For Student Involvement, Fitness Center, The Pit, The Gameroom, Student orgnizations, Calendar, Events, Gender and sexuality resource center, Pan African resource center, Asian Pacific islander, Chicana Latina, Information and Event Services, Distinguished Women, awards, Cultural Graduate Celebrations, LOUDmouth Zine, S.T.A.R.S. Program, Employment Opportunities, Board of Directors, Jobs, ",
-  "Title" : "University-Student Union",
-  "url" : null,
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "Browse California State University, Los Angeles (csulauniversitytimes) classifieds in Los Angeles, CA to find college housing, internships, tutors, student loans, textbooks and scholarships.",
-  "keywords" : "California State University, Los Angeles classifieds, csulauniversitytimes classifieds, CA classifieds, Los Angeles classifieds, student housing, textbooks, scholarships",
-  "Title" : "California State University, Los Angeles (csulauniversitytimes) News and Classifieds",
-  "url" : null,
-  "Content-Type" : "text/html; charset=utf-8"
-}
-
-
-
-{
-  "Description" : null,
-  "keywords" : null,
-  "Title" : "Home | Associated Students Inc.",
-  "url" : null,
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "The University-Student Union inc.(U-SU) at California State University, Los Angeles was established in 1975 and provides a unique setting for the encouragement of broad social, cultural, recreational, and informal educational programming for the university and its surroundings. .",
-  "keywords" : "The University Student Union, California State University Los Angeles, Student Union, CSULA, Cal State L.A., U-SU, USU, student, organizations, MORE, Cross Cultural Centers, Center For Student Involvement, Fitness Center, The Pit, The Gameroom, Student orgnizations, Calendar, Events, Gender and sexuality resource center, Pan African resource center, Asian Pacific islander, Chicana Latina, Information and Event Services, Distinguished Women, awards, Cultural Graduate Celebrations, LOUDmouth Zine, S.T.A.R.S. Program, Employment Opportunities, Board of Directors, Jobs, ",
-  "Title" : "University-Student Union",
-  "url" : null,
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "*/  /*-->*/  */",
-  "keywords" : null,
-  "Title" : "Admissions and Recruitment | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/admissions",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "Welcome! The Center for Student Financial Aid is committed to assisting current and prospective students with financial assistance available from federal, state and institutional sources for their attendance at Cal State L.A.",
-  "keywords" : null,
-  "Title" : "Center for Student Financial Aid & Scholarships | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/financialaid",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "President's Welcome The Campus Setting Luckman Fine Arts Complex University Mission & Strategic Plan Charitable Gift Opportunities",
-  "keywords" : null,
-  "Title" : "California State University, Los Angeles | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/about",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : null,
-  "keywords" : null,
-  "Title" : "Office of Graduate Studies | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/graduatestudies",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : null,
-  "keywords" : null,
-  "Title" : "Housing Services | Home",
-  "url" : null,
-  "Content-Type" : "text/html; charset=iso-8859-1"
-}
-
-
-
-{
-  "Description" : null,
-  "keywords" : null,
-  "Title" : "International Education | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/international",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "*/  /*-->*/   Welcome",
-  "keywords" : null,
-  "Title" : "University Orientation Program | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/orientation",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "Welcome Welcome to the Office of Outreach and Recruitment. Our mission is to facilitate the entry and transition of prospective and Cal State L.A. students into the Cal State L.A. community by providing services, resources and support to enhance academic development and success.",
-  "keywords" : null,
-  "Title" : "Recruitment | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/recruit",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "News",
-  "keywords" : null,
-  "Title" : "Center for Effective Teaching and Learning | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/cetl",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : null,
-  "keywords" : null,
-  "Title" : "Human Resources Management",
-  "url" : null,
-  "Content-Type" : "text/html; charset=iso-8859-1"
-}
-
-
-
-{
-  "Description" : null,
-  "keywords" : null,
-  "Title" : "Research and Academic Personnel",
-  "url" : null,
-  "Content-Type" : "text/html; charset=iso-8859-1"
-}
-
-
-
-{
-  "Description" : null,
-  "keywords" : "Cal State L.A. Alumni Association, California State University, Los Angeles, Alumni Association, Cal State L.A. Alumni, Alumni Association, Cal State LA Alumni, Cal State LA Alumni Association",
-  "Title" : "Cal State L.A. Alumni Association",
-  "url" : null,
-  "Content-Type" : "text/html; charset=iso-8859-1"
-}
-
-
-
-{
-  "Description" : "Welcome to the Cal State L.A. Giving Portal. You can utilize this section of the Cal State L.A. website to find information on all annaul giving, planned giving, designated giving and other donor or gift related topics.",
-  "keywords" : "Annual Giving, Planned Giving, Designated Giving, Giving, Donor",
-  "Title" : "Annual Giving | Cal State L.A. Giving",
-  "url" : null,
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "Welcome to Cal State L.A. At Cal State L.A. we believe that compassion and caring for one another are at the heart of what an education means.",
-  "keywords" : null,
-  "Title" : "Office of the President | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/president",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : null,
-  "keywords" : null,
-  "Title" : "Volunteer | Cal State L.A. Alumni Association",
-  "url" : null,
-  "Content-Type" : "text/html; charset=ISO-8859-1"
-}
-
-
-
-{
-  "Description" : null,
-  "keywords" : null,
-  "Title" : "Academy of Business Leadership",
-  "url" : null,
-  "Content-Type" : "text/html; charset=iso-8859-1"
-}
-
-
-
-{
-  "Description" : "Mission Statement",
-  "keywords" : null,
-  "Title" : "Educational Participation in the Communities (EPIC) | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/univ/stuaffrs/epic",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "L.A. County High School for the Arts",
-  "keywords" : null,
-  "Title" : "L.A. County High School for the Arts",
-  "url" : null,
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : null,
-  "keywords" : null,
-  "Title" : "Pasadena BioScience Collaborative",
-  "url" : null,
-  "Content-Type" : "text/html; charset=windows-1252"
-}
-
-
-
-{
-  "Description" : "Welcome to the Office of Community Engagement at the California State University Los Angeles. Here faculty, students and community partners, will find information about service-learning and community engagement at CSULA.",
-  "keywords" : null,
-  "Title" : "Office of Service Learning | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/cespg/servicelearning",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "Alliance Marc & Eva Stern Math and Science High School",
-  "keywords" : null,
-  "Title" : "Alliance Marc & Eva Stern Math and Science High School",
-  "url" : null,
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "The School of Arts and Enterprise",
-  "keywords" : null,
-  "Title" : "The School of Arts and Enterprise",
-  "url" : null,
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "Experience your future at Cal State L.A.",
-  "keywords" : null,
-  "Title" : "Campus Tours | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/tours",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "aspire. act. achieve.         ",
-  "keywords" : null,
-  "Title" : "Career Development Center | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/univ/cdc",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "Administration 819Phone (323) 343-3050Fax (323) 343-6405For public affairs inquiries: paffairs@cslanet.calstatela.eduFor media inquiries: margiey@calstatela.edu",
-  "keywords" : null,
-  "Title" : "Office of Communications and Public Affairs | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/univ/ppa/publicat",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "Welcome At the Anna Bing Arnold Children’s Center we strive to create a shared community where parents, teachers and the campus join together to provide children with the very best care. For over 40 years the Center has provided child care and development services for student-parents, faculty, staff and the local community.",
-  "keywords" : null,
-  "Title" : "Anna Bing Arnold Children's Center | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/abacc",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "Our Mission The Student Health Center provides high-quality, affordable health care and health education for the students of Cal State L.A. to preserve and enhance their potential for academic success and personal development. It also seeks to serve as the primary health resource for the University and health advocate for the campus community.",
-  "keywords" : null,
-  "Title" : "Student Health Center | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/studenthealthcenter",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "The Luckman Fine Arts Complex is Los Angeles' premiere destination for theatre, dance, music, and visual arts.",
-  "keywords" : null,
-  "Title" : "Home - Luckman Fine Arts Complex",
-  "url" : null,
-  "Content-Type" : "text/html; charset=utf-8"
-}
-
-
-
-{
-  "Description" : "North End of Lot 1Phone (323) 343-3700 | Fax (323) 221-6350",
-  "keywords" : null,
-  "Title" : "Department of Public Safety | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/police",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : null,
-  "keywords" : null,
-  "Title" : "California State University Los Angeles - UAS",
-  "url" : null,
-  "Content-Type" : "text/html; charset=iso-8859-1"
-}
-
-
-
-{
-  "Description" : "Winter 2015 Quarter Hours: Monday - Thursday 9:00 am - 6:00 pm Friday 9:00 am - 3:00 pm",
-  "keywords" : null,
-  "Title" : "University Tutorial Center | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/tutorialcenter",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "",
-  "keywords" : "",
-  "Title" : "University Writing Center",
-  "url" : null,
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "California State University, Los Angeles, Los Angeles, California. 20,497 likes · 674 talking about this · 28,827 were here. This is the official fan...",
-  "keywords" : null,
-  "Title" : "California State University, Los Angeles - Los Angeles, California - College & University | Facebook",
-  "url" : "https://www.facebook.com/CalStateLA",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : null,
-  "keywords" : null,
-  "Title" : null,
-  "url" : null,
-  "Content-Type" : "application/octet-stream"
-}
-
-
-
-{
-  "Description" : "The latest Tweets from CalStateLA (@CalStateLA). California State University, Los Angeles is a great university in a great city. \r\n\r\nhttps://t.co/wGOkOs261W. Los Angeles, CA",
-  "keywords" : null,
-  "Title" : "CalStateLA (@CalStateLA) | Twitter",
-  "url" : null,
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : null,
-  "keywords" : null,
-  "Title" : "myCampus Secure Login",
-  "url" : null,
-  "Content-Type" : "text/html; charset=utf-8"
-}
-
-
-
-{
-  "Description" : null,
-  "keywords" : null,
-  "Title" : "301 Moved Permanently",
-  "url" : null,
-  "Content-Type" : "text/html; charset=windows-1252"
-}
-
-
-
-{
-  "Description" : null,
-  "keywords" : null,
-  "Title" : null,
-  "url" : null,
-  "Content-Type" : "image/png"
-}
-
-
-
-{
-  "Description" : "University ranks 24th nationally! California State University, Los Angeles is proud to be featured as one of TIME Magazine’s top 100 colleges and universities, based on a new criteria proposed by the White House that emphasizes accessibility, affordability, and completion. Ranked at #24, Cal State L.A. is one of the seven CSU campuses that made the list. ",
-  "keywords" : null,
-  "Title" : "Cal State L.A. Proud to be Among TIME Magazine’s Best Colleges | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/univ/ppa/publicat/cal-state-la-proud-be-among-time-magazine%E2%80%99s-best-colleges",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : null,
-  "keywords" : null,
-  "Title" : null,
-  "url" : null,
-  "Content-Type" : "image/png"
-}
-
-
-
-{
-  "Description" : null,
-  "keywords" : null,
-  "Title" : "2014 Master's Universities Rankings | Washington Monthly",
-  "url" : "http://www.washingtonmonthly.com/college_guide/rankings-2014/masters-universities-rank.php",
+  "title" : "Apple - iPod",
+  "path" : "/Users/rohanpatel/Documents/workspace1/crawler3-app/target/Storage/592b2d3e-f33f-4ff5-8508-25d002db41ca.html",
+  "X-UA-Compatible" : "IE=EmulateIE7, IE=9",
+  "viewport" : "width=device-width, initial-scale=1",
+  "dc:title" : "Apple - iPod",
+  "Content-Encoding" : "UTF-8",
+  "Author" : "Apple Inc.",
+  "og:url" : "http://www.apple.com/ipod/",
   "Content-Type" : "application/xhtml+xml"
 }
 
 
 
 {
-  "Description" : null,
+  "analytics-s-bucket-1" : "apple{COUNTRY_CODE}global,apple{COUNTRY_CODE}itunes",
+  "analytics-s-bucket-0" : "appleglobal,appleitunes",
+  "X-Parsed-By" : "org.apache.tika.parser.DefaultParser",
+  "og:type" : "website",
+  "Description" : "iTunes is the worldâ€™s best way to play â€” and add to â€” your collection of music, movies, TV shows, apps, audiobooks, and more. Right on your Mac or PC.",
+  "og:site_name" : "Apple",
   "keywords" : null,
-  "Title" : null,
-  "url" : null,
-  "Content-Type" : "image/png"
+  "title" : "Apple - iTunes - Everything you need to be entertained.",
+  "analytics-s-channel" : "itunes",
+  "path" : "/Users/rohanpatel/Documents/workspace1/crawler3-app/target/Storage/98393d85-858f-49ff-9a4d-a362e92c1f6f.html",
+  "X-UA-Compatible" : "IE=EmulateIE7, IE=9",
+  "viewport" : "width=device-width, initial-scale=1",
+  "dc:title" : "Apple - iTunes - Everything you need to be entertained.",
+  "Content-Encoding" : "UTF-8",
+  "Author" : "Apple Inc.",
+  "og:url" : "http://www.apple.com/itunes/",
+  "Content-Type" : "application/xhtml+xml",
+  "analytics-track" : "iTunes - Index/Tab",
+  "analytics-s-bucket-2" : "apple{COUNTRY_CODE}global"
 }
 
 
 
 {
-  "Description" : "Vice President Joe Biden recently visited Los Angeles and expressed strong support for the CSU California Health Education Project, which was launched by Cal State L.A. Professor Walter Zelman.",
+  "X-Parsed-By" : "org.apache.tika.parser.DefaultParser",
+  "Category" : "Support",
+  "Keywords" : "Apple Support Homepage",
+  "Description" : "The Apple support homepage is your starting point for help with Apple hardware and software products, featuring user forums, manuals, support downloads, tech specs, troubleshooting pages, and tutorials.",
   "keywords" : null,
-  "Title" : "Vice President Biden meets with local health leaders, lauds CSU health insurance project launched by Cal State L.A. professor | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/univ/ppa/publicat/vice-president-biden-meets-local-health-leaders-lauds-csu-health-insurance-project",
+  "title" : "Official Apple Support",
+  "path" : "/Users/rohanpatel/Documents/workspace1/crawler3-app/target/Storage/fa4667d2-b8cc-4af6-967d-f8b5988d3c3f.html",
+  "X-UA-Compatible" : "IE=EmulateIE7, IE=9",
+  "Cache-Control" : "no-siteapp",
+  "viewport" : "width=1024",
+  "dc:title" : "Official Apple Support",
+  "Content-Encoding" : "UTF-8",
+  "Content-Type" : "text/html; charset=utf-8"
+}
+
+
+
+{
+  "omni_page" : "Search Results - Index",
+  "path" : "/Users/rohanpatel/Documents/workspace1/crawler3-app/target/Storage/ac557c3d-0a85-49b6-90d0-f63ee3718037.html",
+  "X-UA-Compatible" : "IE=EmulateIE7, IE=9",
+  "X-Parsed-By" : "org.apache.tika.parser.DefaultParser",
+  "keywords" : null,
+  "viewport" : "width=1024",
+  "dc:title" : "Apple - Search Results",
+  "Content-Encoding" : "UTF-8",
+  "Author" : "Apple Inc.",
+  "title" : "Apple - Search Results",
+  "Content-Type" : "application/xhtml+xml"
+}
+
+
+
+{
+  "analytics-s-bucket-1" : "apple{COUNTRY_CODE}global,apple{COUNTRY_CODE}live",
+  "analytics-s-bucket-0" : "appleglobal,apple{COUNTRY_CODE}live",
+  "og:image" : "http://images.apple.com/live/2015-mar-event/images/og.jpg",
+  "X-Parsed-By" : "org.apache.tika.parser.DefaultParser",
+  "og:type" : "website",
+  "Description" : "",
+  "og:site_name" : "Apple",
+  "keywords" : null,
+  "Content-Location" : "/live/2015-mar-event/",
+  "og:title" : "Experience the Apple Special Event. ",
+  "title" : "Apple - Live - March 2015 Special Event",
+  "og:description" : "Donâ€™t miss a single announcement.",
+  "analytics-s-channel" : "live",
+  "path" : "/Users/rohanpatel/Documents/workspace1/crawler3-app/target/Storage/a87fc7b0-4dcb-4bd2-bbf5-4aac128fbe33.html",
+  "X-UA-Compatible" : "IE=EmulateIE7, IE=9",
+  "viewport" : "width=device-width, initial-scale=1",
+  "dc:title" : "Apple - Live - March 2015 Special Event",
+  "Content-Encoding" : "UTF-8",
+  "Author" : "Apple Inc.",
+  "og:url" : "http://www.apple.com/live/2015-mar-event/",
+  "Content-Type" : "application/xhtml+xml",
+  "analytics-track" : "Apple Live - March 2015",
+  "analytics-s-bucket-2" : "apple{COUNTRY_CODE}global"
+}
+
+
+
+{
+  "analytics-s-bucket-1" : "apple{COUNTRY_CODE}global,apple{COUNTRY_CODE}mac,apple{COUNTRY_CODE}macbook",
+  "analytics-s-bucket-0" : "appleglobal,appleusmac,appleusmacbook",
+  "og:image" : "http://images.apple.com/macbook/overview/images/macbook_overview_og.jpg?201503091741",
+  "X-Parsed-By" : "org.apache.tika.parser.DefaultParser",
+  "og:type" : "website",
+  "Description" : "The incredibly thin and light new MacBook features a stunning 12-inch Retina display, a redesigned keyboard, and the new Force Touch trackpad.",
+  "og:site_name" : "Apple",
+  "keywords" : null,
+  "title" : "Apple - MacBook",
+  "analytics-s-channel" : "macbook",
+  "path" : "/Users/rohanpatel/Documents/workspace1/crawler3-app/target/Storage/7b655b30-4ddb-4c7e-86af-b7067d41d3b5.html",
+  "X-UA-Compatible" : "IE=EmulateIE7, IE=9",
+  "viewport" : "width=device-width, initial-scale=1",
+  "dc:title" : "Apple - MacBook",
+  "Content-Encoding" : "UTF-8",
+  "Author" : "Apple Inc.",
+  "og:url" : "http://www.apple.com/macbook/",
+  "Content-Type" : "application/xhtml+xml",
+  "analytics-track" : "MacBook - Index",
+  "analytics-s-bucket-2" : "apple{COUNTRY_CODE}global"
+}
+
+
+
+{
+  "analytics-s-bucket-1" : "apple{COUNTRY_CODE}global,apple{COUNTRY_CODE}home",
+  "analytics-s-bucket-0" : "appleglobal,applehome",
+  "og:image" : "http://images.apple.com/home/images/og.jpg?201503110857",
+  "X-Parsed-By" : "org.apache.tika.parser.DefaultParser",
+  "og:type" : "website",
+  "Description" : "Apple designs and creates the iPhone, iPad, Mac notebooks and desktop computers, iOS 8, OS X, iPod and iTunes, and the new Apple Watch.",
+  "og:site_name" : "Apple",
+  "keywords" : null,
+  "title" : "Apple",
+  "analytics-s-channel" : "homepage",
+  "path" : "/Users/rohanpatel/Documents/workspace1/crawler3-app/target/Storage/619287fb-12b3-4ae6-871f-ae5223e2c969.html",
+  "X-UA-Compatible" : "IE=EmulateIE7, IE=9",
+  "viewport" : "width=device-width, initial-scale=1",
+  "dc:title" : "Apple",
+  "Content-Encoding" : "UTF-8",
+  "Author" : "Apple Inc.",
+  "og:url" : "http://www.apple.com/",
+  "Content-Type" : "application/xhtml+xml",
+  "analytics-track" : "Apple - Index/Tab",
+  "analytics-s-bucket-2" : "apple{COUNTRY_CODE}global"
+}
+
+
+
+{
+  "analytics-s-bucket-1" : "apple{COUNTRY_CODE}global,apple{COUNTRY_CODE}home",
+  "analytics-s-bucket-0" : "appleglobal,applehome",
+  "og:image" : "http://images.apple.com/home/images/og.jpg?201503110857",
+  "X-Parsed-By" : "org.apache.tika.parser.DefaultParser",
+  "og:type" : "website",
+  "Description" : "Apple designs and creates the iPhone, iPad, Mac notebooks and desktop computers, iOS 8, OS X, iPod and iTunes, and the new Apple Watch.",
+  "og:site_name" : "Apple",
+  "keywords" : null,
+  "title" : "Apple",
+  "analytics-s-channel" : "homepage",
+  "path" : "/Users/rohanpatel/Documents/workspace1/crawler3-app/target/Storage/f61d0327-2c0e-4513-b132-f8348645c032.html",
+  "X-UA-Compatible" : "IE=EmulateIE7, IE=9",
+  "viewport" : "width=device-width, initial-scale=1",
+  "dc:title" : "Apple",
+  "Content-Encoding" : "UTF-8",
+  "Author" : "Apple Inc.",
+  "og:url" : "http://www.apple.com/",
+  "Content-Type" : "application/xhtml+xml",
+  "analytics-track" : "Apple - Index/Tab",
+  "analytics-s-bucket-2" : "apple{COUNTRY_CODE}global"
+}
+
+
+
+{
+  "analytics-s-bucket-1" : "apple{COUNTRY_CODE}global,apple{COUNTRY_CODE}home",
+  "analytics-s-bucket-0" : "appleglobal,applehome",
+  "og:image" : "http://images.apple.com/home/images/og.jpg?201503110857",
+  "X-Parsed-By" : "org.apache.tika.parser.DefaultParser",
+  "og:type" : "website",
+  "Description" : "Apple designs and creates the iPhone, iPad, Mac notebooks and desktop computers, iOS 8, OS X, iPod and iTunes, and the new Apple Watch.",
+  "og:site_name" : "Apple",
+  "keywords" : null,
+  "title" : "Apple",
+  "analytics-s-channel" : "homepage",
+  "path" : "/Users/rohanpatel/Documents/workspace1/crawler3-app/target/Storage/722e7d72-37ba-4c87-a654-fe0e5f4fc708.html",
+  "X-UA-Compatible" : "IE=EmulateIE7, IE=9",
+  "viewport" : "width=device-width, initial-scale=1",
+  "dc:title" : "Apple",
+  "Content-Encoding" : "UTF-8",
+  "Author" : "Apple Inc.",
+  "og:url" : "http://www.apple.com/",
+  "Content-Type" : "application/xhtml+xml",
+  "analytics-track" : "Apple - Index/Tab",
+  "analytics-s-bucket-2" : "apple{COUNTRY_CODE}global"
+}
+
+
+
+{
+  "omni_page" : "MacBook Air - Index",
+  "path" : "/Users/rohanpatel/Documents/workspace1/crawler3-app/target/Storage/a92cb151-6e81-4853-bc76-b4ee71baf420.html",
+  "X-UA-Compatible" : "IE=EmulateIE7, IE=9",
+  "X-Parsed-By" : "org.apache.tika.parser.DefaultParser",
+  "Description" : "The new MacBook Air features fourth-generation Intel Core processors and all-day battery life, yet itâ€™s still incredibly thin and light.",
+  "keywords" : null,
+  "viewport" : "width=1024",
+  "dc:title" : "Apple - MacBook Air",
+  "Content-Encoding" : "UTF-8",
+  "Author" : "Apple Inc.",
+  "title" : "Apple - MacBook Air",
+  "Content-Type" : "application/xhtml+xml"
+}
+
+
+
+{
+  "omni_page" : "MacBookÂ Pro Retina - Index",
+  "path" : "/Users/rohanpatel/Documents/workspace1/crawler3-app/target/Storage/37c730dc-5bb0-4bfe-a66f-ad285189b49f.html",
+  "X-UA-Compatible" : "IE=EmulateIE7, IE=9",
+  "X-Parsed-By" : "org.apache.tika.parser.DefaultParser",
+  "Description" : "With the latest-generation Intel processors, all-new graphics, and faster flash storage, MacBookÂ Pro moves further ahead in power and performance.",
+  "keywords" : null,
+  "viewport" : "width=1024",
+  "dc:title" : "Apple - MacBookÂ Pro",
+  "Content-Encoding" : "UTF-8",
+  "Author" : "Apple Inc.",
+  "title" : "Apple - MacBookÂ Pro",
+  "Content-Type" : "application/xhtml+xml"
+}
+
+
+
+{
+  "analytics-s-bucket-1" : "apple{COUNTRY_CODE}global,apple{COUNTRY_CODE}applewatch,apple{COUNTRY_CODE}applewatchcampaign",
+  "analytics-s-bucket-0" : "appleglobal,appleusapplewatch,appleusapplewatchcampaign",
+  "og:image" : "http://images.apple.com/v/watch/christy-turlington-burns/a/week-one/images/og_image.jpg",
+  "X-Parsed-By" : "org.apache.tika.parser.DefaultParser",
+  "Description" : "Christy Turlington Burns shares her experiences using Apple Watch to train for the Virgin Money London Marathon. Follow her progress each week.",
+  "keywords" : null,
+  "title" : "Apple Watch - Christy Turlington Burns - Week One",
+  "analytics-s-channel" : "applewatch.blog",
+  "path" : "/Users/rohanpatel/Documents/workspace1/crawler3-app/target/Storage/11ee5055-90e1-4b02-ab7d-2f0ed8ddffdc.html",
+  "X-UA-Compatible" : "IE=EmulateIE7, IE=9",
+  "viewport" : "width=device-width, initial-scale=1",
+  "dc:title" : "Apple Watch - Christy Turlington Burns - Week One",
+  "Content-Encoding" : "UTF-8",
+  "Author" : "Apple Inc.",
+  "Content-Type" : "application/xhtml+xml",
+  "analytics-track" : "Watch - Christy Turlington Blog - wk1 ",
+  "analytics-s-bucket-2" : "apple{COUNTRY_CODE}global"
+}
+
+
+
+{
+  "analytics-s-bucket-1" : "apple{COUNTRY_CODE}global,apple{COUNTRY_CODE}other",
+  "analytics-s-bucket-0" : "appleglobal,appleusother",
+  "og:image" : "/researchkit/images/og.jpg?201503081013",
+  "X-Parsed-By" : "org.apache.tika.parser.DefaultParser",
+  "og:type" : "website",
+  "Description" : "ResearchKit - Now everybody can do their part to advance medical research.",
+  "og:site_name" : "Apple",
+  "keywords" : null,
+  "title" : "Apple - ResearchKit",
+  "analytics-s-channel" : "researchkit",
+  "path" : "/Users/rohanpatel/Documents/workspace1/crawler3-app/target/Storage/b1da2bcf-da6d-408e-9b59-8f7fb6d45d97.html",
+  "X-UA-Compatible" : "IE=EmulateIE7, IE=9",
+  "viewport" : "width=device-width, initial-scale=1",
+  "dc:title" : "Apple - ResearchKit",
+  "Content-Encoding" : "UTF-8",
+  "Author" : "Apple Inc.",
+  "og:url" : "http://www.apple.com/researchkit/",
+  "Content-Type" : "application/xhtml+xml",
+  "analytics-track" : "Apple - ResearchKit",
+  "analytics-s-bucket-2" : "apple{COUNTRY_CODE}global"
+}
+
+
+
+{
+  "omni_page" : "Apple TV - Hbo - Now",
+  "og:image" : "/v/appletv/e/images/og.jpg?201503090209",
+  "X-Parsed-By" : "org.apache.tika.parser.DefaultParser",
+  "og:type" : "website",
+  "Description" : "Apple TV plays entertainment from iTunes, Netflix, and more on your HDTV.  And with AirPlay, it even lets you play content from your iOS devices.",
+  "og:site_name" : "Apple",
+  "keywords" : null,
+  "title" : "Apple - Apple TV - HBO NOW",
+  "og:description" : "Great HD content and more on your TV Apple TV lets you play movies, TV shows, live sports and news, your music, photos and more on your high-definition TV. You can also use AirPlay to stream content from your Mac or iOS device.",
+  "path" : "/Users/rohanpatel/Documents/workspace1/crawler3-app/target/Storage/2eb6b755-5937-495a-8cb0-4eaa0a536c3e.html",
+  "X-UA-Compatible" : "IE=EmulateIE7, IE=9",
+  "viewport" : "width=1024",
+  "dc:title" : "Apple - Apple TV - HBO NOW",
+  "Content-Encoding" : "UTF-8",
+  "Author" : "Apple Inc.",
+  "og:url" : "http://www.apple.com/appletv/hbo-now/",
+  "Content-Type" : "application/xhtml+xml"
+}
+
+
+
+{
+  "omni_page" : "retail store - index",
+  "path" : "/Users/rohanpatel/Documents/workspace1/crawler3-app/target/Storage/ac0a3327-5c3c-45fd-abfc-47ee4bcbe3fc.html",
+  "X-UA-Compatible" : "IE=EmulateIE7, IE=9",
+  "X-Parsed-By" : "org.apache.tika.parser.DefaultParser",
+  "Description" : "Visit the Apple Retail Store to shop for Mac, iPhone, iPad, iPod, and more. Sign up for free workshops or visit the Genius bar for free support.",
+  "keywords" : null,
+  "viewport" : "width=1024",
+  "dc:title" : "Apple Retail Store",
+  "Content-Encoding" : "UTF-8",
+  "Author" : "Apple Inc.",
+  "title" : "Apple Retail Store",
+  "Content-Type" : "application/xhtml+xml"
+}
+
+
+
+{
+  "omni_page" : "Where to Buy",
+  "X-Parsed-By" : "org.apache.tika.parser.DefaultParser",
+  "Category" : "",
+  "Description" : "Find out where to buy Apple products online, in a retail store, or through a reseller.",
+  "keywords" : null,
+  "title" : "Apple - Where to Buy",
+  "pics-label" : "(pics-1.1 \"http://www.icra.org/ratingsv02.html\" l gen true for \"http://www.apple.com\" r (cz 1 lz 1 nz 1 oz 1 vz 1) \"http://www.rsac.org/ratingsv01.html\" l gen true for \"http://www.apple.com\" r (n 0 s 0 v 0 l 0))",
+  "path" : "/Users/rohanpatel/Documents/workspace1/crawler3-app/target/Storage/64f8163c-934f-4755-af99-19504948019a.html",
+  "X-UA-Compatible" : "IE=EmulateIE7, IE=9",
+  "viewport" : "width=1024",
+  "dc:title" : "Apple - Where to Buy",
+  "Content-Encoding" : "UTF-8",
+  "Author" : "Apple Inc.",
+  "Expires" : "Fri, 26 Mar 1999 23:59:59 GMT",
+  "Content-Type" : "text/html; charset=utf-8"
+}
+
+
+
+{
+  "omni_page" : "Apple Info",
+  "X-Parsed-By" : "org.apache.tika.parser.DefaultParser",
+  "Category" : "",
+  "Description" : "",
+  "keywords" : null,
+  "title" : "Apple - Apple Info",
+  "path" : "/Users/rohanpatel/Documents/workspace1/crawler3-app/target/Storage/14b9e4c1-e027-4c83-9a17-16d67f0dd992.html",
+  "X-UA-Compatible" : "IE=EmulateIE7, IE=9",
+  "viewport" : "width=1024",
+  "dc:title" : "Apple - Apple Info",
+  "Content-Encoding" : "UTF-8",
+  "Author" : "Apple Inc.",
+  "Content-Type" : "application/xhtml+xml"
+}
+
+
+
+{
+  "analytics-s-bucket-1" : "apple{COUNTRY_CODE}global,apple{COUNTRY_CODE}other",
+  "analytics-s-bucket-0" : "appleglobal,appleusother",
+  "X-Parsed-By" : "org.apache.tika.parser.DefaultParser",
+  "og:type" : "website",
+  "Description" : "Apple info, Mac, iPhone, iPad, Apple Watch, and more. Find your way around apple.com.",
+  "og:site_name" : "Apple",
+  "keywords" : null,
+  "title" : "Apple - Site Map",
+  "analytics-s-channel" : "sitemap",
+  "path" : "/Users/rohanpatel/Documents/workspace1/crawler3-app/target/Storage/a8255725-3449-46a0-9dac-16bce9086e44.html",
+  "X-UA-Compatible" : "IE=EmulateIE7, IE=9",
+  "viewport" : "width=device-width, initial-scale=1",
+  "dc:title" : "Apple - Site Map",
+  "Content-Encoding" : "UTF-8",
+  "Author" : "Apple Inc.",
+  "og:url" : "http://www.apple.com/sitemap/",
+  "Content-Type" : "application/xhtml+xml",
+  "analytics-track" : "Site Map - Index",
+  "analytics-s-bucket-2" : "apple{COUNTRY_CODE}global"
+}
+
+
+
+{
+  "omni_page" : "Hot News - Index",
+  "path" : "/Users/rohanpatel/Documents/workspace1/crawler3-app/target/Storage/a9eb669e-a85f-4833-a703-c21deee7a931.html",
+  "X-UA-Compatible" : "IE=EmulateIE7, IE=9",
+  "X-Parsed-By" : "org.apache.tika.parser.DefaultParser",
+  "Description" : "The latest Apple news, reviews, and product release information.",
+  "keywords" : null,
+  "viewport" : "width=1024",
+  "dc:title" : "Apple - Hot News",
+  "Content-Encoding" : "UTF-8",
+  "Author" : "Apple Inc.",
+  "title" : "Apple - Hot News",
+  "Content-Type" : "application/xhtml+xml"
+}
+
+
+
+{
+  "omni_page" : "RSS Information",
+  "X-Parsed-By" : "org.apache.tika.parser.DefaultParser",
+  "Category" : "",
+  "Description" : "",
+  "keywords" : null,
+  "title" : "Apple - RSS Information",
+  "path" : "/Users/rohanpatel/Documents/workspace1/crawler3-app/target/Storage/377282be-074f-4621-a718-bf951951142c.html",
+  "X-UA-Compatible" : "IE=EmulateIE7, IE=9",
+  "viewport" : "width=1024",
+  "dc:title" : "Apple - RSS Information",
+  "Content-Encoding" : "UTF-8",
+  "Author" : "Apple Inc.",
+  "Content-Type" : "application/xhtml+xml"
+}
+
+
+
+{
+  "X-Parsed-By" : "org.apache.tika.parser.DefaultParser",
+  "Category" : "",
+  "Description" : "",
+  "keywords" : null,
+  "title" : "Apple - Jobs at Apple (us)",
+  "pragma" : "no-cache",
+  "path" : "/Users/rohanpatel/Documents/workspace1/crawler3-app/target/Storage/8b5acb7b-ede6-41c8-92be-a90f71b50add.html",
+  "X-UA-Compatible" : "IE=EmulateIE7, IE=9",
+  "viewport" : "width=1024",
+  "dc:title" : "Apple - Jobs at Apple (us)",
+  "Content-Encoding" : "UTF-8",
+  "Author" : "Apple Inc.",
+  "Expires" : "Fri, 26 Mar 1999 23:59:59 GMT",
+  "Content-Type" : "text/html; charset=utf-8"
+}
+
+
+
+{
+  "omni_page" : "How to Contact Us",
+  "X-Parsed-By" : "org.apache.tika.parser.DefaultParser",
+  "Category" : "",
+  "Description" : "We aim to provide great customer service. For product inquiries, technical support, and legal questions, here are all the ways you can contact Apple.",
+  "keywords" : null,
+  "title" : "Apple - How to Contact Us",
+  "path" : "/Users/rohanpatel/Documents/workspace1/crawler3-app/target/Storage/f50ca1f6-2dd5-489d-922f-7d44fdf80d50.html",
+  "X-UA-Compatible" : "IE=EmulateIE7, IE=9",
+  "viewport" : "width=1024",
+  "dc:title" : "Apple - How to Contact Us",
+  "Content-Encoding" : "UTF-8",
+  "Author" : "Apple Inc.",
   "Content-Type" : "text/html; charset=UTF-8"
 }
 
 
 
 {
-  "Description" : null,
+  "X-Parsed-By" : "org.apache.tika.parser.DefaultParser",
+  "Transparency Alpha" : "nonpremultipled",
   "keywords" : null,
-  "Title" : null,
-  "url" : null,
-  "Content-Type" : "image/jpeg"
+  "Text TextEntry" : "keyword=Software, value=Adobe ImageReady, encoding=ISO-8859-1, compression=none",
+  "tEXt tEXtEntry" : "keyword=Software, value=Adobe ImageReady",
+  "tiff:ImageLength" : "32",
+  "Compression CompressionTypeName" : "deflate",
+  "Dimension PixelAspectRatio" : "1.0",
+  "Data BitsPerSample" : "8 8 8 8",
+  "Data PlanarConfiguration" : "PixelInterleaved",
+  "IHDR" : "width=32, height=32, bitDepth=8, colorType=RGBAlpha, compressionMethod=deflate, filterMethod=adaptive, interlaceMethod=none",
+  "path" : "/Users/rohanpatel/Documents/workspace1/crawler3-app/target/Storage/12f57846-e5cf-4aeb-aca9-268f422f0a6e.png",
+  "Compression NumProgressiveScans" : "1",
+  "Chroma ColorSpaceType" : "RGB",
+  "Chroma BlackIsZero" : "true",
+  "Compression Lossless" : "true",
+  "width" : "32",
+  "Dimension ImageOrientation" : "Normal",
+  "tiff:BitsPerSample" : "8 8 8 8",
+  "tiff:ImageWidth" : "32",
+  "Chroma NumChannels" : "4",
+  "Data SampleFormat" : "UnsignedIntegral",
+  "Content-Type" : "image/png",
+  "height" : "32"
 }
 
 
 
 {
-  "Description" : "Engineering & Technology Building, Room A236Phone (323) 343-4500 | Fax (323) 343-4555 | Email ecst@calstatela.edu Events & News  ECST Faculty Candidate Visit read more  ",
+  "omni_page" : "Choose your country",
+  "path" : "/Users/rohanpatel/Documents/workspace1/crawler3-app/target/Storage/41d89b44-a188-4151-b5a0-4dc769e85736.html",
+  "X-UA-Compatible" : "IE=EmulateIE7, IE=9",
+  "X-Parsed-By" : "org.apache.tika.parser.DefaultParser",
+  "Description" : "",
   "keywords" : null,
-  "Title" : "College of Engineering, Computer Science, and Technology | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/ecst",
-  "Content-Type" : "text/html; charset=UTF-8"
+  "viewport" : "width=1024",
+  "dc:title" : "Apple - Choose your country or region",
+  "Content-Encoding" : "UTF-8",
+  "Author" : "Apple Inc.",
+  "title" : "Apple - Choose your country or region",
+  "Content-Type" : "application/xhtml+xml"
 }
 
 
 
 {
-  "Description" : null,
+  "omni_page" : "",
+  "path" : "/Users/rohanpatel/Documents/workspace1/crawler3-app/target/Storage/afd5e7f3-e7e3-4869-bd53-0ee3c3379d87.html",
+  "X-UA-Compatible" : "IE=EmulateIE7, IE=9",
+  "X-Parsed-By" : "org.apache.tika.parser.DefaultParser",
+  "Description" : "Find legal information and the terms and conditions of the Apple web site. By using this web site, you agree to these terms of use.",
   "keywords" : null,
-  "Title" : null,
-  "url" : null,
-  "Content-Type" : "image/png"
+  "viewport" : "width=1024",
+  "dc:title" : "Apple - Legal - Internet Services - Terms - Legal Information & Notices",
+  "Content-Encoding" : "UTF-8",
+  "Author" : "Apple Inc.",
+  "title" : "Apple - Legal - Internet Services - Terms - Legal Information & Notices",
+  "Content-Type" : "application/xhtml+xml"
 }
 
 
 
 {
-  "Description" : null,
+  "omni_page" : "Privacy - Our Privacy Policy",
+  "og:image" : "/home/images/og.jpg?201501051326",
+  "X-Parsed-By" : "org.apache.tika.parser.DefaultParser",
+  "og:type" : "website",
+  "Description" : "Privacy Policy",
+  "og:site_name" : "Apple",
   "keywords" : null,
-  "Title" : "Cal State L.A. Telephone and Web Page Directories",
-  "url" : null,
-  "Content-Type" : "text/html; charset=iso-8859-1"
+  "title" : "Apple - Privacy - Our Privacy Policy",
+  "path" : "/Users/rohanpatel/Documents/workspace1/crawler3-app/target/Storage/27e6f216-e795-4d07-81ce-bdc1115b52c0.html",
+  "X-UA-Compatible" : "IE=EmulateIE7, IE=9",
+  "viewport" : "width=1024",
+  "dc:title" : "Apple - Privacy - Our Privacy Policy",
+  "Content-Encoding" : "UTF-8",
+  "Author" : "Apple Inc.",
+  "og:url" : "http://www.apple.com/privacy/privacy-policy/",
+  "Content-Type" : "application/xhtml+xml"
 }
 
 
 
 {
-  "Description" : null,
+  "analytics-s-bucket-1" : "apple{COUNTRY_CODE}global,apple{COUNTRY_CODE}home",
+  "analytics-s-bucket-0" : "appleglobal,applehome",
+  "og:image" : "http://images.apple.com/home/images/og.jpg?201503110857",
+  "X-Parsed-By" : "org.apache.tika.parser.DefaultParser",
+  "og:type" : "website",
+  "Description" : "Apple designs and creates the iPhone, iPad, Mac notebooks and desktop computers, iOS 8, OS X, iPod and iTunes, and the new Apple Watch.",
+  "og:site_name" : "Apple",
   "keywords" : null,
-  "Title" : "Cal State L.A. - MORE Programs",
-  "url" : null,
-  "Content-Type" : "text/html; charset=windows-1252"
-}
-
-
-
-{
-  "Description" : null,
-  "keywords" : null,
-  "Title" : "California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "Academic Affairs, the largest unit in the University, provides instruction to matriculated students through its six colleges:",
-  "keywords" : null,
-  "Title" : "Division of Academic Affairs | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/academics/aa",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "*/  /*-->*/  .",
-  "keywords" : null,
-  "Title" : "Division of Student Affairs | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/studentaffairs",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "Office Hours: Monday - Friday 8am - 5pmAdministration Building, Room 604Phone (323) 343-3500    Mission Statement The primary mission of the Division of Administration and Finance is to work collectively to enhance the learning environment of CSULA. The Division provides a wide range of \"quality\" professional services that support the University through its departments and affiliated organizations. The Division is committed to:",
-  "keywords" : null,
-  "Title" : "Administration and Finance | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/admfin",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "Download Microsoft Office 365 ProPlus Software for Free! Here’s your opportunity to download Microsoft Word, Excel, PowerPoint, OneNote and more on up to five computers and five mobile devices – PC, Mac, Apple iOS, Android and Windows Mobile. To learn more, visit http://www.calstatela.edu/its/services/software/o365ProPlus    ",
-  "keywords" : null,
-  "Title" : "Information Technology Services | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/its",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "The Division of University Advancement exists to promote Cal State L.A.'s mission and to foster advocacy for the goals of the University by securing private support, by enhancing affiliations, and by creating effective communications strategies with targeted internal and external constituencies. The Vice President for University Advancement is responsible for providing leadership and management for the University's advancement program that includes University Development, Alumni Relations, and Communications and Public Affairs.",
-  "keywords" : null,
-  "Title" : "University Advancement | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/univ/advancement",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "//-->",
-  "keywords" : null,
-  "Title" : "Mission Statement | CSULA | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/csula-missionstatement.php",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "Strategic Planning is the process of assessing what the institution wants to do in order to advance its mission and goals over a specific period of time. This involves evaluating existing and anticipated conditions and creating a vision of the future that is most beneficial for the institution.  Subsequently a set of actions, responsibilities and resources are agreed upon to move the university in that direction while monitoring, assessing, and adjusting the action plan as needed in order to make the vision a reality by a given time.",
-  "keywords" : null,
-  "Title" : "Strategic Plan | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/strategicplan",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : null,
-  "keywords" : null,
-  "Title" : "The California State University | Working for California",
-  "url" : null,
-  "Content-Type" : "text/html; charset=iso-8859-1"
-}
-
-
-
-{
-  "Description" : null,
-  "keywords" : null,
-  "Title" : "Campus Maps | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/univ/maps/index.php",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "With inspirations drawn from the Jewish shetls in Eastern Europe, the David Orlowsky's The Soul of Klezmer, is a masterful expansion of the Klezmer folk music tradition. His adaptations and original compositions push creative boundaries offering a unique blend of folk tunes on the clarinet and strings.  Clarinetist David Orlowsky brings a full arsenal of carefully crafted compositions self coined as \"world chamber music.\"",
-  "keywords" : null,
-  "Title" : "David Orlowsky's The Soul of Klezmer | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/event/david-orlowskys-soul-klezmer",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : null,
-  "keywords" : null,
-  "Title" : null,
-  "url" : null,
-  "Content-Type" : "image/gif"
-}
-
-
-
-{
-  "Description" : "Join the many resident commuters and other stakeholders in the region who are seeking an opportunity to learn more about all aspects of this complicated and far-reaching issue. The SR-710 North transportation network was started more than half a century ago but was never completed. Studies are underway to evaluate mobility and find traffic congestion solutions between the western San Gabriel Valley and the east/northeast area of Los Angeles.",
-  "keywords" : null,
-  "Title" : "SR-710 North - Extend or Not?  | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/event/sr-710-north-extend-or-not",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "Stressed about where to study at night for finals? Your college representatives have joined efforts with the Library to provide you a quiet, comfortable space to crack the books. Keep your spirits high and enjoy complementary snacks, refreshments, and coffee. Take advantage of the study area and pick up information about other A.S.I. services provided to students. Throughout Study Fest, we’ll be handing out snacks, refreshments, blue books, scantrons, pencils, highlighters, and more.",
-  "keywords" : null,
-  "Title" : "The De-Stress Study Fest | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/event/de-stress-study-fest-4",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "What can your Charter College Reps do for you? Stop by for coffee, treats, and chat it up with your Charter College Reps and Dean Eunny. Express your needs and concerns to enhance your educational experience.",
-  "keywords" : null,
-  "Title" : "Charter College of Education (CCOE): Coffee @ Sunset | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/event/charter-college-education-ccoe-coffee-sunset",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "Azusa Pacific",
-  "keywords" : null,
-  "Title" : "Baseball | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/event/baseball-0",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "Venue: TBA",
-  "keywords" : null,
-  "Title" : "University Bands Concert | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/event/university-bands-concert-0",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "Celebrating Women's Herstory Month with Dr. Leonor Xochitl Perez, who founded the Women's Mariachi Foundation and is the curator of the Viva el Mariachi Femenil Exhibit.",
-  "keywords" : null,
-  "Title" : "\"Women in Mariachi: Past and Present\" | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/event/women-mariachi-past-and-present",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : null,
-  "keywords" : null,
-  "Title" : "Opera Concert - Orpheus & Eurydice by Gluck | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/event/opera-concert-orpheus-eurydice-gluck",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "This week, the CCC is all about you, your success, and Finals Week! We’ll have “quieter” hours and study space, assistance from the CCC staff and study group leaders, and some light and nutritious refreshments in the centers at various times to feed your brain and lift your energy.",
-  "keywords" : null,
-  "Title" : "CCC Finals Week, Study Hours, And Study Assistance | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/event/ccc-finals-week-study-hours-and-study-assistance-0",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "Welcome to the Cal State L.A. Giving Portal. You can utilize this section of the Cal State L.A. website to find information on all annaul giving, planned giving, designated giving and other donor or gift related topics.",
-  "keywords" : "Annual Giving, Planned Giving, Designated Giving, Giving, Donor",
-  "Title" : "Annual Giving | Cal State L.A. Giving",
-  "url" : null,
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : null,
-  "keywords" : null,
-  "Title" : "Mariachi Concert | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/event/mariachi-concert-0",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "Community members and Chicano civil rights leaders gathered at Cal State L.A. for an event honoring trailblazing journalist Ruben Salazar. The March 3 event, held on Salazar’s birthday, featured a screening of the documentary film “Ruben Salazar: Man in the Middle,” and a reception celebrating the newsman’s life and accomplishments.",
-  "keywords" : null,
-  "Title" : "Community members, Latino civil rights pioneers celebrate Ruben Salazar's life | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/univ/ppa/publicat/community-members-latino-civil-rights-pioneers-celebrate-ruben-salazars-life",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "Cal State L.A. honors students have produced seven short films that will be screened this week at the Autry National Center of the American West.",
-  "keywords" : null,
-  "Title" : "Cal State L.A. students produce short films for Autry Center screening | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/univ/ppa/publicat/cal-state-la-students-produce-short-films-autry-center-screening",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : "Congressman Xavier Becerra paid a recent visit to the Cal State L.A. campus, where he commended nearly 100 student volunteers for helping community members prepare their income tax returns.",
-  "keywords" : null,
-  "Title" : "Congressman Becerra commends Cal State L.A. students for volunteer tax preparation program | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/univ/ppa/publicat/congressman-becerra-commends-cal-state-la-students-volunteer-tax-preparation",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : null,
-  "keywords" : null,
-  "Title" : null,
-  "url" : null,
-  "Content-Type" : "image/png"
-}
-
-
-
-{
-  "Description" : "*/  /*-->*/  */",
-  "keywords" : null,
-  "Title" : "Admissions and Recruitment | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/admissions",
-  "Content-Type" : "text/html; charset=UTF-8"
-}
-
-
-
-{
-  "Description" : null,
-  "keywords" : null,
-  "Title" : null,
-  "url" : null,
-  "Content-Type" : "image/png"
-}
-
-
-
-{
-  "Description" : null,
-  "keywords" : null,
-  "Title" : "University Library | California State University, Los Angeles",
-  "url" : null,
-  "Content-Type" : "text/html; charset=iso-8859-1"
-}
-
-
-
-{
-  "Description" : null,
-  "keywords" : null,
-  "Title" : null,
-  "url" : null,
-  "Content-Type" : "image/png"
-}
-
-
-
-{
-  "Description" : "This is your guide to the 2015 Commencement Ceremonies at Cal State L.A. Information about tickets, caps and gowns, parking and other important details are explained on this site. To participate in the 2015 Commencement Ceremonies, you must file for graduation by the specific deadline dates established by the Graduation Office. All College receptions will be held at Reeder Field next to the University Athletics Stadium after each ceremony.  Please check back regularly as additional information is added.",
-  "keywords" : null,
-  "Title" : "Commencement | California State University, Los Angeles",
-  "url" : "http://www.calstatela.edu/commencement",
-  "Content-Type" : "text/html; charset=UTF-8"
+  "title" : "Apple",
+  "analytics-s-channel" : "homepage",
+  "path" : "/Users/rohanpatel/Documents/workspace1/crawler3-app/target/Storage/211cc5df-a82a-4305-b1a8-3fe004dea5ef.html",
+  "X-UA-Compatible" : "IE=EmulateIE7, IE=9",
+  "viewport" : "width=device-width, initial-scale=1",
+  "dc:title" : "Apple",
+  "Content-Encoding" : "UTF-8",
+  "Author" : "Apple Inc.",
+  "og:url" : "http://www.apple.com/",
+  "Content-Type" : "application/xhtml+xml",
+  "analytics-track" : "Apple - Index/Tab",
+  "analytics-s-bucket-2" : "apple{COUNTRY_CODE}global"
 }
 
 

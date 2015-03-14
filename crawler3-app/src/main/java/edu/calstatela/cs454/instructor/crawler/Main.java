@@ -12,7 +12,7 @@ import org.apache.commons.lang.builder.ToStringStyle;
 public class Main {
 
 	public static void main(String[] args) throws Exception {
-		FileUtils.deleteDirectory(new File("D:/Storage/"));
+		FileUtils.deleteDirectory(new File("Storage/"));
 		File f = new File("file1.json");
 		
 		

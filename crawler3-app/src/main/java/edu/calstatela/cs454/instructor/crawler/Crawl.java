@@ -20,6 +20,7 @@ import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
+import java.util.UUID;
 
 import javax.imageio.ImageIO;
 import javax.net.ssl.HttpsURLConnection;
@@ -87,7 +88,7 @@ public class Crawl {
 		catch(Exception e){
 			System.out.println(e);
 		}
-        File theDir = new File("D:/Storage");
+        File theDir = new File("Storage");
         if (!theDir.exists()) {
             
             boolean result = false;
@@ -140,13 +141,14 @@ public class Crawl {
         String dir = "D:/Storage";
         try{
         String w = hpCon.getContentType();
+        String id = UUID.randomUUID().toString();
         	
         if(w.contains("html"))
         {
         ReadableByteChannel rbc = Channels.newChannel(url.openStream());
-        FileOutputStream fos = new FileOutputStream("D:/Storage/information"+i+".html");
+        FileOutputStream fos = new FileOutputStream("Storage/"+id+".html");
         fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
-        String path = "D:/Storage/information"+i+".html";
+        String path = "Storage/"+id+".html";
         linklist2.add(path);
         i++;
         obj.put("storage", path);
@@ -154,9 +156,9 @@ public class Crawl {
         else if(w.contains("png"))
         {
         	ReadableByteChannel rbc = Channels.newChannel(url.openStream());
-            FileOutputStream fos = new FileOutputStream("D:/Storage/information"+i+".png");
+            FileOutputStream fos = new FileOutputStream("Storage/"+id+".png");
             fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
-            String path = "D:/Storage/information"+i+".png";
+            String path = "Storage/"+id+".png";
             linklist2.add(path);
             i++;
             obj.put("storage", path);
@@ -164,19 +166,19 @@ public class Crawl {
         else if(w.contains("gif"))
         {
         	ReadableByteChannel rbc = Channels.newChannel(url.openStream());
-            FileOutputStream fos = new FileOutputStream("D:/Storage/information"+i+".gif");
+            FileOutputStream fos = new FileOutputStream("Storage/"+id+".gif");
             fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
-            String path = "D:/Storage/information"+i+".gif";
+            String path = "Storage/"+id+".gif";
             linklist2.add(path);
             i++;
             obj.put("storage", path);
         }
-        else if(w.contains("jpeg"))
+        else if(w.contains("jpeg")||w.contains("jpg"))
         {
         	ReadableByteChannel rbc = Channels.newChannel(url.openStream());
-            FileOutputStream fos = new FileOutputStream("D:/Storage/information"+i+".jpg");
+            FileOutputStream fos = new FileOutputStream("Storage/"+id+".jpg");
             fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
-            String path = "D:/Storage/information"+i+".jpg";
+            String path = "Storage/"+id+".jpg";
             linklist2.add(path);
             i++;
             obj.put("storage", path);
@@ -184,9 +186,9 @@ public class Crawl {
         else if(w.contains("pdf"))
         {
         	ReadableByteChannel rbc = Channels.newChannel(url.openStream());
-            FileOutputStream fos = new FileOutputStream("D:/Storage/information"+i+".pdf");
+            FileOutputStream fos = new FileOutputStream("Storage/"+id+".pdf");
             fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
-            String path = "D:/Storage/information"+i+".pdf";
+            String path = "Storage/"+id+".pdf";
             linklist2.add(path);
             i++;
             obj.put("storage", path);
@@ -194,9 +196,9 @@ public class Crawl {
         else if(w.contains("doc"))
         {
         	ReadableByteChannel rbc = Channels.newChannel(url.openStream());
-            FileOutputStream fos = new FileOutputStream("D:/Storage/information"+i+".doc");
+            FileOutputStream fos = new FileOutputStream("Storage/"+id+".doc");
             fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
-            String path = "D:/Storage/information"+i+".doc";
+            String path = "Storage/"+id+".doc";
             linklist2.add(path);
             i++;
             obj.put("storage", path);
@@ -206,14 +208,14 @@ public class Crawl {
         	//URLConnection conn = new URL("http://online1.tingclass.com/lesson/shi0529/43/32.mp3").openConnection();
             InputStream is = hpCon.getInputStream();
 
-            OutputStream outstream = new FileOutputStream(new File("D:/Storage/information"+i+".mp3"));
+            OutputStream outstream = new FileOutputStream(new File("Storage/"+id+".mp3"));
             byte[] buffer = new byte[4096];
             int len;
             while ((len = is.read(buffer)) > 0) {
                 outstream.write(buffer, 0, len);
             }
             outstream.close();
-            String path = "D:/Storage/information"+i+".mp3";
+            String path = "Storage/"+id+".mp3";
             linklist2.add(path);
             i++;
             obj.put("storage", path);
@@ -229,13 +231,112 @@ public class Crawl {
      // System.out.println(links);
         for (Link link: links)
         {
-        	
-        	JSONObject obj2 = new JSONObject();
         	String anchor = link.getUri();
         	if(!anchor.startsWith("htt"))
         	{
         		anchor = url+anchor;
         	}
+        	//String v = link.toString();
+        /*	try{
+        	 URL url2 = new URL(anchor);
+             
+             
+             URLConnection hpCon2 = url2.openConnection();
+        	
+        	 
+        	        String m = hpCon2.getContentType();
+        	        	
+        	        if(m.contains("html"))
+        	        {
+        	        ReadableByteChannel rbc = Channels.newChannel(url2.openStream());
+        	        FileOutputStream fos = new FileOutputStream("D:/Storage/information"+i+".html");
+        	        fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
+        	        String path = "D:/Storage/information"+i+".html";
+        	        linklist2.add(path);
+        	        i++;
+        	        obj.put("storage", path);
+        	        }
+        	        else if(m.contains("png"))
+        	        {
+        	        	ReadableByteChannel rbc = Channels.newChannel(url2.openStream());
+        	            FileOutputStream fos = new FileOutputStream("D:/Storage/information"+i+".png");
+        	            fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
+        	            String path = "D:/Storage/information"+i+".png";
+        	            linklist2.add(path);
+        	            i++;
+        	            obj.put("storage", path);
+        	        }
+        	        else if(m.contains("gif"))
+        	        {
+        	        	ReadableByteChannel rbc = Channels.newChannel(url2.openStream());
+        	            FileOutputStream fos = new FileOutputStream("D:/Storage/information"+i+".gif");
+        	            fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
+        	            String path = "D:/Storage/information"+i+".gif";
+        	            linklist2.add(path);
+        	            i++;
+        	            obj.put("storage", path);
+        	        }
+        	        else if(m.contains("jpeg")||m.contains("jpg"))
+        	        {
+        	        	ReadableByteChannel rbc = Channels.newChannel(url2.openStream());
+        	            FileOutputStream fos = new FileOutputStream("D:/Storage/information"+i+".jpg");
+        	            fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
+        	            String path = "D:/Storage/information"+i+".jpg";
+        	            linklist2.add(path);
+        	            i++;
+        	            obj.put("storage", path);
+        	        }
+        	        else if(m.contains("pdf"))
+        	        {
+        	        	ReadableByteChannel rbc = Channels.newChannel(url2.openStream());
+        	            FileOutputStream fos = new FileOutputStream("D:/Storage/information"+i+".pdf");
+        	            fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
+        	            String path = "D:/Storage/information"+i+".pdf";
+        	            linklist2.add(path);
+        	            i++;
+        	            obj.put("storage", path);
+        	        }
+        	        else if(m.contains("doc"))
+        	        {
+        	        	ReadableByteChannel rbc = Channels.newChannel(url2.openStream());
+        	            FileOutputStream fos = new FileOutputStream("D:/Storage/information"+i+".doc");
+        	            fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
+        	            String path = "D:/Storage/information"+i+".doc";
+        	            linklist2.add(path);
+        	            i++;
+        	            obj.put("storage", path);
+        	        }
+        	        else if(m.contains("audio"))
+        	        {
+        	        	//URLConnection conn = new URL("http://online1.tingclass.com/lesson/shi0529/43/32.mp3").openConnection();
+        	            InputStream is = hpCon2.getInputStream();
+
+        	            OutputStream outstream = new FileOutputStream(new File("D:/Storage/information"+i+".mp3"));
+        	            byte[] buffer = new byte[4096];
+        	            int len;
+        	            while ((len = is.read(buffer)) > 0) {
+        	                outstream.write(buffer, 0, len);
+        	            }
+        	            outstream.close();
+        	            String path = "D:/Storage/information"+i+".mp3";
+        	            linklist2.add(path);
+        	            i++;
+        	            obj.put("storage", path);
+        	        }
+        	        
+        	       
+        	       
+        	        }
+        	        catch(NullPointerException e)
+        	        {
+        	        	
+        	        }
+        	 catch (MalformedURLException e)
+        	 {
+        		 
+        	 }*/
+        	JSONObject obj2 = new JSONObject();
+        	
        
         
         	
@@ -267,6 +368,7 @@ public class Crawl {
         {
         	if(!v.startsWith("#") && !v.startsWith("/")||v.startsWith("http")||v.startsWith("https"))
         		try{
+        		//	String d= "2";
         	crawl(v,depth);
         	}
         	catch( MalformedURLException malformedException){
