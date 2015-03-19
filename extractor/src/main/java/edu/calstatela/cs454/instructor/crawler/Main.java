@@ -2,6 +2,7 @@ package edu.calstatela.cs454.instructor.crawler;
 
 import java.awt.Event;
 import java.io.BufferedWriter;
+import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -10,7 +11,10 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Scanner;
 
 import org.apache.tika.exception.TikaException;
@@ -48,39 +52,26 @@ public class Main {
 		
 		
 		
-		
-		    
-		/* InputStream in = new FileInputStream("C:/Users/Varun/crawler3-app/"+controlfile);
-			try {
-				for (Iterator it = new ObjectMapper().readValues(
-						new JsonFactory().createJsonParser(in), Map.class); it
-						.hasNext();) {
-					// System.out.println(it.next());
-					LinkedHashMap<String, Object> keyValue = (LinkedHashMap<String, Object>) it.next();
-					//System.out.println(keyValue.get("storage"));*/
-		
-		 
-		
-		
-		
 		 File f = new File("file2.json");
 		 
-		// String c = args[0];
-		 if(f.exists())
-		 {
-			 f.delete();
-		 }
-		 
-		 GetOpt options = new GetOpt( "c:H", args );
-	       //Get the arguments specified for each option.
-	       String controlfile = options.getOptionParam( 'c' );
-	      
-	      
+			// String c = args[0];
+			 if(f.exists())
+			 {
+				 f.delete();
+			 }
+			 
+			 GetOpt options = new GetOpt( "c:H", args );
+		       //Get the arguments specified for each option.
+		      String controlfile = options.getOptionParam( 'c' );
+		       new Extraction().extract(controlfile);
+		      
+		      
+		    
+		//InputStream in = new FileInputStream("D:/crawler3-app/target/"+controlfile);
 		
-		new Extraction().extract();
-	}
-
 }
+}
+	
 	
 
 	
