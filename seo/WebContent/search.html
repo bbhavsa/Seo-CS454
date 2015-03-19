@@ -1,0 +1,84 @@
+<html>
+<head>
+<script src="ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="http://www.jqueryautocomplete.com/js/jquery/jquery-1.7.1.min.js"></script>
+<script src="http://www.jqueryautocomplete.com/js/jquery/jquery.ui.core.min.js"></script>
+<script src="http://www.jqueryautocomplete.com/js/jquery/jquery.ui.widget.min.js"></script>
+<script src="http://www.jqueryautocomplete.com/js/jquery/jquery.ui.position.min.js"></script>
+<script src="http://www.jqueryautocomplete.com/js/jquery/jquery.ui.autocomplete.min.js"></script>
+<link rel="stylesheet" href="http://www.jqueryautocomplete.com/js/jquery/smoothness/jquery-ui-1.8.16.custom.css"/>
+<style>
+  .ui-autocomplete {
+    max-height: 300px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+	font-size: 10pt;
+  }
+  /* IE 6 doesn't support max-height
+   * we use height instead, but this forces the menu to always be this tall
+   */
+  * html .ui-autocomplete {
+    height: 300px;
+	font-size: 10pt;
+  }
+  
+  </style>
+ 
+</head>
+<body>
+
+<input type="text" id="search" />
+
+<div class = "d">text</div>
+
+<script type="text/javascript">
+var c =	$("div").text();
+alert(c);
+</script>
+<script type="text/javascript">
+var data = [
+						{"label":"Aragorn", "actor":"Viggo Mortensen"},
+						{"label":"Arwen", "actor":"Liv Tyler"},
+						{"label":"Bilbo Baggins", "actor":"Ian Holm"},
+						{"label":"Boromir", "actor":"Sean Bean"},
+						{"label":"Frodo Baggins", "actor":"Elijah Wood"},
+						{"label":"Gandalf", "actor":"Ian McKellen"},
+						{"label":"Gimli", "actor":"John Rhys-Davies"},
+						{"label":"Gollum", "actor":"Andy Serkis"},
+						{"label":"Legolas", "actor":"Orlando Bloom"},
+						{"label":"Meriadoc Merry Brandybuck", "actor":"Dominic Monaghan"},
+						{"label":"Peregrin Pippin Took", "actor":"Billy Boyd"},
+						{"label":"Samwise Gamgee", "actor":"Sean Astin"}
+						]; 
+
+						var array = [];
+						$.getJSON('index.json', function (json) {
+							
+							for (var key in json) {
+							    if (json.hasOwnProperty(key)) {
+							        var item = json[key];
+							        array.push(
+							        		link:item.link
+							        		word:item.word
+							        		url:item.url
+							        		frequency:item.frequency);            
+							    }
+							}
+							});
+						
+					
+						
+						
+$(function() {
+
+	$( "#search" ).autocomplete({
+		 source:array,
+		 delay:0,
+		 minLength:1
+	})
+});
+</script>
+
+</body>
+</html>
