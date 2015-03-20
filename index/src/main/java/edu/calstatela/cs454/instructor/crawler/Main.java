@@ -30,29 +30,36 @@ public class Main {
 		
  
 		 
-		GetOpt options = new GetOpt( "c:s:i:r:H", args );
+		/*GetOpt options = new GetOpt( "c:s:i:r:H", args );
 	       //Get the arguments specified for each option.
 		 String controlfile = options.getOptionParam('c');
 		   String stw = options.getOptionParam('s');
 	     String index = options.getOptionParam( 'i' );
-	     String rank = options.getOptionParam( 'r' );
+	     String rank = options.getOptionParam( 'r' );*/
+	     
+	     String controlfile = args[0];
+	     String stw = args[1];
+	     String index = args[2];
+	     String rank = args[3];
+	     
 	   
 	     
-File f2 = new File(index);
+   /* File f2 = new File(index);
 		 
 		// String controlfile = args[0];
 		 if(f2.exists())
 		 {
 			 f2.delete();
-		 }
+		 }*/
 	      
-File f3 = new File(rank);
+   /* File f3 = new File(rank);
 
 if(f3.exists()){
 	f3.delete();
-}
-		// new Rank().rank("Mac");
+}*/
+  //new Rank().rank(rank);
+   new Ranktest().rank2("iphone");
 		
-	new Index().index(controlfile, stw, index, rank);
+	//new Index().index(controlfile, stw, index, rank);
 	}
 }

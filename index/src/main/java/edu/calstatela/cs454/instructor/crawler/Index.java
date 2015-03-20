@@ -36,7 +36,8 @@ public class Index {
 
 	   File[] files = f.listFiles();
 	    for (File file : files) {*/
-		final InputStream in = new FileInputStream("/Users/rohanpatel/Documents/workspace1/extractor/target/"+c);
+		ArrayList<String> ranking = new ArrayList<String>();
+		final InputStream in = new FileInputStream("/Users/Bhavik/Documents/rohan/extractor/target/"+c);
 		 
 		try {
 			for (Iterator it = new ObjectMapper().readValues(
@@ -45,7 +46,8 @@ public class Index {
 				// System.out.println(it.next());
 				@SuppressWarnings("unchecked")
 				LinkedHashMap<String, String> keyValue = (LinkedHashMap<String,String>) it.next();
-				System.out.println(keyValue.get("path"));
+				//System.out.println(keyValue.get("path"));
+				//System.out.println(keyValue.get("title"));
 	
 	    	try{
 	    		
@@ -56,15 +58,32 @@ public class Index {
 	    	        String plainText = handler.toString();
 	    	       // System.out.println(plainText);
 	    	        JSONObject obj = new JSONObject();
+	    	        ArrayList<String> meta = new ArrayList<String>();
+	    	       
 	    	        
-	    	        String[] stringArray = plainText.split("\\s+");
+	    	       for(int i = 0; i <metadata.names().length; i++) { 
+			        	  String name = metadata.names()[i]; 
+			        	  meta.add(metadata.get(name));
+			        	  }
+	    	       String listString = "";
+
+	    	       for (String s : meta)
+	    	       {
+	    	           listString += s + "\t";
+	    	       }
+                   
+	    	       String indexing = listString+plainText;
+	    	       String result = indexing.replaceAll("[,]","");
+	    	      // System.out.println(indexing);
+	    	        
+	    	        String[] stringArray = result.split("\\s+");
 	    	        List<String> wordList = Arrays.asList(stringArray);
 	    	        
 	    	        
 	    	        
 	    	        
 	    	        
-	    	        obj.put("link",keyValue.get("path"));
+	    	        
 	    	        
 	    	      
 	    	        
@@ -72,17 +91,18 @@ public class Index {
 	    	        for (String str : stringArray)
 	    	        {
 	    	           // System.out.println(str);
-	    	        	obj.put("frequency", Collections.frequency(wordList, str));
 	    	        	
-	    	        	
-	    	       
+	    	        	if(!ranking.contains(str))
+	    	        	{
+	    	        	ranking.add(str);
+	    	            }
 	    	        	
 	    	        	
 	    	        	
 	    	        	
 	    	        	
 	    	        	ArrayList<String> word = new ArrayList<String>();
-	    	        	FileInputStream fstream = new FileInputStream("/Users/rohanpatel/Documents/workspace1/index/"+stw);
+	    	        	FileInputStream fstream = new FileInputStream("/Users/Bhavik/Documents/rohan/index/"+stw);
 	    	        	BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
 
 	    	        	String strLine;
@@ -99,7 +119,12 @@ public class Index {
                          
 	    	        	if(!word.contains(str))
 	    	        	{
-	    	            obj.put("word", str);
+	    	        		
+	    	        	String sr = str.toLowerCase();	
+	    	            obj.put("word", sr);
+	    	            obj.put("frequency", Collections.frequency(wordList, str));
+	    	            obj.put("link",keyValue.get("path"));
+	    	            obj.put("title",keyValue.get("title"));
 	    	        	}
 	    	        
 	    	        File f2 = new File(index);
@@ -108,7 +133,7 @@ public class Index {
 			            	
 			            	ObjectMapper mapper = new ObjectMapper();
 			               file2.write(mapper.writerWithDefaultPrettyPrinter().writeValueAsString(obj));
-			            System.out.println(mapper.writerWithDefaultPrettyPrinter().writeValueAsString(obj));
+			          System.out.println(mapper.writerWithDefaultPrettyPrinter().writeValueAsString(obj));
 			                file2.newLine();
 			                file2.newLine();
 			                file2.newLine();
@@ -132,9 +157,13 @@ public class Index {
 				
 			}
 	    }
+			//System.out.println(ranking);
 		}
 		finally {
-			new Rank().rank("Apple", rank);
+			//for(String wrd : ranking)
+			//{
+			//new Rank().rank("watch", rank);
+			//}
 			in.close();
 		}
 }

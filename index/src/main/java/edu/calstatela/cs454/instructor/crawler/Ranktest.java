@@ -23,76 +23,60 @@ import org.codehaus.jackson.JsonFactory;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.json.simple.JSONObject;
 
-public class Rank {
-int i = 1;
+public class Ranktest {
+	int i = 1;
 	@SuppressWarnings("unchecked")
-	public void rank(String rank) throws IOException{
+	public void rank2(String word) throws IOException{
 		
+		final InputStream in = new FileInputStream("/Users/Bhavik/Documents/rohan/index/rank.json");
 		
-		final InputStream in = new FileInputStream("/Users/Bhavik/Documents/rohan/index/index.json");
-		
-		//Map<String, Integer> words = new HashMap<String, Integer>();
-		Integer tr;
+		Map<String, Double> words = new HashMap<String, Double>();
 		
 		
 		try {
 			for (Iterator it = new ObjectMapper().readValues(
 					new JsonFactory().createJsonParser(in), Map.class); it
 					.hasNext();) {
+				// System.out.println(it.next());
 				@SuppressWarnings("unchecked")
 				LinkedHashMap<String, Object> keyValue = (LinkedHashMap<String,Object>) it.next();
-			    String a = (String) keyValue.get("word");
+			//	LinkedHashMap<String, Integer> fre = (LinkedHashMap<String,Integer>) it.next();
 				
-			//	if(word.toLowerCase().equals(a.toLowerCase())){
+				if(word.equals(keyValue.get("word"))){
 		
-				String local = (String) keyValue.get("link");
-				Integer frq = (Integer) keyValue.get("frequency");
+				String local = (String) keyValue.get("Link");
+				Double frq = (Double) keyValue.get("Rank");
 				
-			
-				
-			//	float r2 = Float.parseFloat(frq)/100;
+					words.put(local, frq);
 					
-		
-					String t = (String) keyValue.get("title");
-					if(t!=null)
-					{
-					//System.out.println(t);
-					String[] tarray = t.split("\\s+");
-					for (int i=0; i<tarray.length; ++i)
-				    {
-				        tarray[i] = tarray[i].toLowerCase();
-				    }
-					List<String> tList = Arrays.asList(tarray);
-					
-					
-						
-						    tr = Collections.frequency(tList, a.toLowerCase());
-						   // System.out.println(tr);
-						    Integer v = tr*100;
-						     Integer fr = frq + v;
-						   Float rnk = (float) fr/100;
-						     
-						     
-						     
-							
-							
-							
-						
-						     JSONObject obj = new JSONObject();
-						     obj.put("Link", local);
-						     obj.put("Rank", rnk);
-						     obj.put("word", a);
-						
+				
+				}
 				
 				
-				
+			}
 			
 			
-			
-			
-		    
+			Object[] a = words.entrySet().toArray();
+		    Arrays.sort(a, new Comparator() {
+		        public int compare(Object o1, Object o2) {
+		            return ((Map.Entry<String, Double>) o2).getValue().compareTo(
+		                    ((Map.Entry<String, Double>) o1).getValue());
+		        }
+		    });
+		    for (Object e : a) {
+		       // System.out.println(((Map.Entry<String, Integer>) e).getKey() + " : "
+		             //   + ((Map.Entry<String, Integer>) e).getValue());
 		        
-		        File f4 = new File(rank);
+		    	String r = ((Entry<String, Double>) e).getValue().toString();
+		    	//float r1 = Float.parseFloat(r)/100;
+		        JSONObject obj = new JSONObject();
+		        
+		        obj.put("link",((Map.Entry<String, Double>) e).getKey());
+		        obj.put("frequency", ((Map.Entry<String, Double>) e).getValue());
+		        obj.put("rank",r);
+		        i++;
+		        
+		        File f4 = new File("rank1.json");
 		          BufferedWriter file2 = new BufferedWriter(new FileWriter(f4,true)); 
 		            try {
 		            	
@@ -112,24 +96,18 @@ int i = 1;
 		                file2.flush();
 		                file2.close();
 		            }
-		    
+		    }
 			
 			
 			
 	
 	}
-			}
-		}
 	finally {
 		in.close();
 	}
-	
-
 		
 	}
 	
 	
 	
-	    }
-
-
+}
